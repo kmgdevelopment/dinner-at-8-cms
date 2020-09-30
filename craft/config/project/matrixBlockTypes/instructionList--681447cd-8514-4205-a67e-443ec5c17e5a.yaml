@@ -1,0 +1,33 @@
+field: ee476a6d-cca9-43ef-9e7b-292856b4eda0
+fieldLayouts:
+  ce497cda-7f19-4f7d-b9bd-623706e8ddd4:
+    tabs:
+      -
+        fields:
+          4410e0d7-1efd-473f-b6ac-b99f5b68b26d:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  4410e0d7-1efd-473f-b6ac-b99f5b68b26d:
+    contentColumnType: string
+    fieldGroup: null
+    handle: theList
+    instructions: ''
+    name: List
+    searchable: true
+    settings:
+      contentTable: '{{%stc_thelist}}'
+      fieldLayout: table
+      maxRows: ''
+      minRows: ''
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: instructionList
+name: 'Instruction List'
+sortOrder: 2

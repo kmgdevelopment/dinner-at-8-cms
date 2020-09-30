@@ -1,0 +1,10 @@
+handle: season
+name: Season
+siteSettings:
+  19752013-301c-4d1e-835a-85c15af48ac0:
+    hasUrls: true
+    template: ''
+    uriFormat: 'season/{slug}'
+structure:
+  maxLevels: null
+  uid: 51f3a765-7aef-4d47-baf7-e7fdf920697f

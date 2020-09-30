@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+handle: proteinCats
+instructions: ''
+name: 'Protein Type'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  source: 'group:ca0c05de-cddd-4a8f-9578-ab1c34092593'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

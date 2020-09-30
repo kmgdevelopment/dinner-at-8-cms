@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+handle: mealCats
+instructions: ''
+name: 'Meal Type'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  source: 'group:17d65186-6f71-4a63-98a0-616a23f4aadf'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

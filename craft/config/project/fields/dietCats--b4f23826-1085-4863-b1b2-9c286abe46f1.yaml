@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+handle: dietCats
+instructions: ''
+name: 'Dietary Restrictions'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  source: 'group:c5196221-f005-4c3a-bc04-70d1e28bc99a'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

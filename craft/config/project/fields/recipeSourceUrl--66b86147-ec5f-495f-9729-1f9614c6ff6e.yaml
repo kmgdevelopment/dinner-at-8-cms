@@ -1,0 +1,12 @@
+contentColumnType: string(255)
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba
+handle: recipeSourceUrl
+instructions: ''
+name: 'Source URL'
+searchable: true
+settings:
+  maxLength: '255'
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

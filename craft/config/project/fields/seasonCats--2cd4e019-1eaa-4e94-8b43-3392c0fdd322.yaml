@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+handle: seasonCats
+instructions: ''
+name: Season
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  source: 'group:7955371b-f46b-47a4-99f0-8c79e0ed88d2'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

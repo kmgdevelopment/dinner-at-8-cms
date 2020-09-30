@@ -1,0 +1,10 @@
+handle: meal
+name: 'Meal Type'
+siteSettings:
+  19752013-301c-4d1e-835a-85c15af48ac0:
+    hasUrls: true
+    template: ''
+    uriFormat: 'meal-type/{slug}'
+structure:
+  maxLevels: null
+  uid: a6fadff6-7633-4cf4-9f89-78dc638bd28a

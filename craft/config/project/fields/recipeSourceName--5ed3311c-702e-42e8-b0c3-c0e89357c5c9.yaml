@@ -1,0 +1,17 @@
+contentColumnType: text
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba
+handle: recipeSourceName
+instructions: ''
+name: 'Source Name'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

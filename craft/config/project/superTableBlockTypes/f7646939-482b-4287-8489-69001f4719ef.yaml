@@ -1,0 +1,165 @@
+field: ffaf3413-aa37-4373-87c3-a6429e660f3c
+fieldLayouts:
+  f8f5eb72-0568-4b09-ba6e-1b839083b30a:
+    tabs:
+      -
+        fields:
+          079b7b72-146c-4d30-88e3-156896f78cf3:
+            required: false
+            sortOrder: 3
+          0cf58473-1cfd-473e-8e5e-312c9d73e1a2:
+            required: false
+            sortOrder: 4
+          5708c9ae-1357-4fc8-a376-a09d79128d68:
+            required: false
+            sortOrder: 2
+          fa3b48ba-5e5b-4476-b793-17177f4abb16:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  079b7b72-146c-4d30-88e3-156896f78cf3:
+    contentColumnType: text
+    fieldGroup: null
+    handle: ingredient
+    instructions: ''
+    name: Ingredient
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0cf58473-1cfd-473e-8e5e-312c9d73e1a2:
+    contentColumnType: text
+    fieldGroup: null
+    handle: preparation
+    instructions: ''
+    name: Preparation
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5708c9ae-1357-4fc8-a376-a09d79128d68:
+    contentColumnType: string
+    fieldGroup: null
+    handle: unit
+    instructions: ''
+    name: Unit
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Select...
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Grams
+            -
+              - value
+              - gram
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Ounces
+            -
+              - value
+              - ounce
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Pounds
+            -
+              - value
+              - pound
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Teaspoons
+            -
+              - value
+              - tsp
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tablespoons
+            -
+              - value
+              - tbsp
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Cups
+            -
+              - value
+              - cup
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  fa3b48ba-5e5b-4476-b793-17177f4abb16:
+    contentColumnType: text
+    fieldGroup: null
+    handle: quantity
+    instructions: ''
+    name: Quantity
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

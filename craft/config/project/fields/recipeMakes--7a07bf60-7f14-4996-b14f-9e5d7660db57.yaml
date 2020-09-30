@@ -1,0 +1,57 @@
+contentColumnType: text
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba
+handle: recipeMakes
+instructions: ''
+name: Makes
+searchable: true
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Quantity
+            -
+              - handle
+              - quantity
+            -
+              - width
+              - 10%
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Unit
+            -
+              - handle
+              - unit
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: '1'
+  minRows: '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

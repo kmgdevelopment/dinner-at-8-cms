@@ -1,0 +1,10 @@
+handle: holiday
+name: Holiday
+siteSettings:
+  19752013-301c-4d1e-835a-85c15af48ac0:
+    hasUrls: true
+    template: ''
+    uriFormat: 'holiday/{slug}'
+structure:
+  maxLevels: null
+  uid: 0d7d47ba-094b-41e8-8a00-68e8efa7d067

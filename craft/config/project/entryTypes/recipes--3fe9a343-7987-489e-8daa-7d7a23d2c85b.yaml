@@ -1,0 +1,73 @@
+fieldLayouts:
+  622f9134-ddda-4236-9e0f-7b533098c12b:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 3607ce79-fa08-4429-9bdf-362a211f0419
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 7a07bf60-7f14-4996-b14f-9e5d7660db57
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 722f1a56-78fa-4d62-9345-3eed6ac377b9
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: ee476a6d-cca9-43ef-9e7b-292856b4eda0
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 30f80e02-aeae-448c-a172-c2a5b7671d2a
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: d99fda2a-6512-4e74-9162-14968199b4eb
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 5ed3311c-702e-42e8-b0c3-c0e89357c5c9
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 66b86147-ec5f-495f-9729-1f9614c6ff6e
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Content
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 419135b9-5aea-48a3-8ba2-9c58221d424f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: b4f23826-1085-4863-b1b2-9c286abe46f1
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 24be567a-7441-4eaf-b03c-9cd3f0046c58
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 2cd4e019-1eaa-4e94-8b43-3392c0fdd322
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: cd412959-aebd-403a-b455-0c9fbcedf68a
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Categories
+        sortOrder: 2
+handle: recipes
+hasTitleField: true
+name: Recipes
+section: 9fb4f6ff-06bf-48f1-925e-3fdd71f3a713
+sortOrder: 1
+titleFormat: ''

@@ -1,0 +1,8 @@
+handle: abstracts
+hasUrls: true
+name: Abstracts
+settings:
+  path: '/Users/kristengrote/Dropbox/Dinner at 8/dist/files/abstracts'
+sortOrder: 1
+type: craft\volumes\Local
+url: '@defaultSiteUrl/files/abstracts'

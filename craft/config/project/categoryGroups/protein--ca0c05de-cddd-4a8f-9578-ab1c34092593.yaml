@@ -1,0 +1,10 @@
+handle: protein
+name: 'Protein Type'
+siteSettings:
+  19752013-301c-4d1e-835a-85c15af48ac0:
+    hasUrls: true
+    template: ''
+    uriFormat: 'protein-type/{slug}'
+structure:
+  maxLevels: null
+  uid: 36657d8f-d20f-4519-8d4e-a955ae9713d4

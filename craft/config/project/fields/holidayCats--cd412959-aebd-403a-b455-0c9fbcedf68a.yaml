@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+handle: holidayCats
+instructions: ''
+name: Holiday
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  source: 'group:02cd0f87-4960-4c1c-a0ab-e31ebb79ec7b'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories
