@@ -18,6 +18,7 @@
 .module-recipe {
 	> * {
 		background-color: $color-chrome-light;
+		color: $color-body;
 	}
 	.media {
 		width: 100%;

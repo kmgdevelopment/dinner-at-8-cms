@@ -717,6 +717,7 @@ table th {
 
 .module-recipe > * {
   background-color: #EEEEEE;
+  color: #000000;
 }
 .module-recipe .media {
   width: 100%;
