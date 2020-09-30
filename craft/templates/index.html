@@ -1,0 +1,279 @@
+{% extends '_layouts/global' %}
+
+{% block pageBody %}
+	{% set searchQuery = craft.app.request.getParam('q') %}
+
+	<header class="section-group banner">
+		<section class="section-wrap">
+			<div class="section">
+				<div class="gutter">
+					<div class="container">
+						<div class="content">
+							<div class="layout-8-col centered">
+								<form action="/" class="form-single-field search">
+									<input type="search" name="q" value="{{ searchQuery }}">
+									<input type="submit" value="Search">
+								</form>
+							</div><!--/.layout-8-col-->			
+						</div><!--/.content-->
+					</div><!--/.container-->
+				</div><!--/.gutter-->
+			</div><!--/.section-->
+
+			<div class="section">
+				<div class="structure-filter-menu">
+					<div class="menu-heading">
+						<div class="gutter">
+							<div class="container">
+								<div class="content">
+									<h5><a href="#" class="trigger">Filters +</a></h5>
+
+									<a href="/{% if searchQuery|length %}?q={{ searchQuery }}{% endif %}" class="clear">Clear x</a>
+								</div><!--/.content-->
+							</div><!--/.container-->
+						</div><!--/.gutter-->
+					</div><!--/.menu-heading-->
+					
+					<div class="menu-body">
+						<div class="gutter">
+							<div class="container">
+								<div class="content">
+									<form action="/" method="get">
+										{% if searchQuery|length %}
+											<input type="hidden" name="q" value="{{ searchQuery }}">
+										{% endif %}
+									
+										<div class="fieldset">
+											<div class="fieldgroup">
+												<h6>Meal Type</h6>
+												
+												{% for category in craft.categories.group('meal').orderBy('title').level(1).all %}
+													<div class="field-checkbox">
+																						
+														<input type="checkbox" name="m{{ category.id }}" id="m{{ category.id }}" value="1"{% if craft.app.request.getParam('m'~category.id)|length %} checked{% endif %}>
+														<label for="m{{ category.id }}">{{ category.title }}</label>
+													</div><!--/.field-checkbox-->
+												{% endfor %}
+											</div><!--/.fieldgroup-->
+											
+																						
+											<div class="fieldgroup">
+												<h6>Dietary Restrictions</h6>
+												
+												{% for category in craft.categories.group('diet').orderBy('title').all %}
+													<div class="field-checkbox">
+														<input type="checkbox" name="d{{ category.id }}" id="d{{ category.id }}" value="1"{% if craft.app.request.getParam('d'~category.id)|length %} checked{% endif %}>
+														<label for="d{{ category.id }}">{{ category.title }}</label>
+													</div><!--/.field-checkbox-->
+												{% endfor %}
+											</div><!--/.fieldgroup-->
+
+											<div class="fieldgroup">
+												<h6>Protein Type</h6>
+												
+												{% for category in craft.categories.group('protein').orderBy('title').all %}
+													<div class="field-checkbox">
+														<input type="checkbox" name="pr{{ category.id }}" id="pr{{ category.id }}" value="1"{% if craft.app.request.getParam('pr'~category.id)|length %} checked{% endif %}>
+														<label for="pr{{ category.id }}">{{ category.title }}</label>
+													</div><!--/.field-checkbox-->
+												{% endfor %}
+											</div><!--/.fieldgroup-->
+																						
+											<div class="fieldgroup">
+												<h6>Season</h6>
+												
+												{% for category in craft.categories.group('season').orderBy('title').all %}
+													<div class="field-checkbox">
+														<input type="checkbox" name="s{{ category.id }}" id="s{{ category.id }}" value="1"{% if craft.app.request.getParam('s'~category.id)|length %} checked{% endif %}>
+														<label for="s{{ category.id }}">{{ category.title }}</label>
+													</div><!--/.field-checkbox-->
+												{% endfor %}
+											</div><!--/.fieldgroup-->
+																						
+											<div class="fieldgroup">
+												<h6>Holiday</h6>
+												
+												{% for category in craft.categories.group('holiday').orderBy('title').all %}
+													<div class="field-checkbox">
+														<input type="checkbox" name="h{{ category.id }}" id="h{{ category.id }}" value="1"{% if craft.app.request.getParam('h'~category.id)|length %} checked{% endif %}>
+														<label for="h{{ category.id }}">{{ category.title }}</label>
+													</div><!--/.field-checkbox-->
+												{% endfor %}
+											</div><!--/.fieldgroup-->
+										</div><!--/.fieldset-->
+										
+										<div class="buttons">
+											<input type="submit" value="Apply">
+										</div><!--/.buttons-->
+									</form>
+								</div><!--/.content-->
+							</div><!--/.container-->
+						</div><!--/.gutter-->
+					</div><!--/.menu-body-->
+				</div><!--/.structure-sidebar-menu-->
+			</div><!--/.section-->
+		</section><!--/.section-wrap-->
+	</header><!--/.banner-->
+
+	<section class="section-group">
+		<section class="section-wrap">
+			<div class="section">
+				<div class="gutter">
+					<div class="container">
+						<div class="content">
+							{% set entryQuery = craft.entries.section('Recipes').limit(12) %}
+							
+							{# SEARCH QUERY #}
+							{% if searchQuery|length %}
+								{% set entryQuery = entryQuery
+									.search(searchQuery)
+									.orderBy('score')
+								%}
+							{% endif %}
+							
+							{# CATEGORY FILTERS #}
+							{% set queryParams = craft.app.request.queryParams %}
+							
+							{# MEAL TYPE #}
+							{% set mealFilters = [] %}
+							{% for key,value in queryParams %}
+								{% if key != 'q' and key matches '/^m[0-9]*$/' %}
+									{% set mealFilters = mealFilters|merge([ key|trim('m','left') ]) %}
+								{% endif %}
+							{% endfor %}
+
+							{% if mealFilters|length %}
+								{% set entryQuery = entryQuery.mealCats(mealFilters) %}
+							{% endif %}
+							
+							{# DIETARY RESTRICTIONS #}
+							{% set dietFilters = [] %}
+							{% for key,value in queryParams %}
+								{% if key != 'q' and key matches '/^d[0-9]*$/' %}
+									{% set dietFilters = dietFilters|merge([ key|trim('d','left') ]) %}
+								{% endif %}
+							{% endfor %}
+
+							{% if dietFilters|length %}
+								{% set entryQuery = entryQuery.dietCats(dietFilters) %}
+							{% endif %}
+
+							{# PROTEIN TYPE #}
+							{% set proteinFilters = [] %}
+							{% for key,value in queryParams %}
+								{% if key != 'q' and key matches '/^pr[0-9]*$/' %}
+									{% set proteinFilters = proteinFilters|merge([ key|trim('pr','left') ]) %}
+								{% endif %}
+							{% endfor %}
+
+							{% if proteinFilters|length %}
+								{% set entryQuery = entryQuery.proteinCats(proteinFilters) %}
+							{% endif %}
+							
+							{# SEASON #}
+							{% set seasonFilters = [] %}
+							{% for key,value in queryParams %}
+								{% if key != 'q' and key matches '/^s[0-9]*$/' %}
+									{% set seasonFilters = seasonFilters|merge([ key|trim('s','left') ]) %}
+								{% endif %}
+							{% endfor %}
+
+							{% if seasonFilters|length %}
+								{% set entryQuery = entryQuery.seasonCats(seasonFilters) %}
+							{% endif %}
+							
+							{# HOLIDAY #}
+							{% set holidayFilters = [] %}
+							{% for key,value in queryParams %}
+								{% if key != 'q' and key matches '/^h[0-9]*$/' %}
+									{% set holidayFilters = holidayFilters|merge([ key|trim('h','left') ]) %}
+								{% endif %}
+							{% endfor %}
+
+							{% if holidayFilters|length %}
+								{% set entryQuery = entryQuery.holidayCats(holidayFilters) %}
+							{% endif %}
+							
+							{% paginate entryQuery as pageInfo, pageEntries %}
+
+							<div class="layout-grid">
+								<div class="col">
+									{% for entry in pageEntries %}
+										{% if loop.first %}
+											<div class="layout-grid cols-3 stretch">
+										{% endif %}
+										<div class="col">
+											<div class="module-recipe">
+												<a href="{{ entry.url }}">
+													<div class="media">
+														{% if entry.recipeImg|length %}
+															{% set recipeImg = entry.recipeImg.one.url %}
+														{% else %}
+															{% set recipeImg = '/assets/img/recipe-default.jpg' %}
+														{% endif %}
+														<img src="{{ recipeImg }}" alt="{{ entry.title }}">
+													</div><!--/.media-->
+													<div class="text">
+														<h6 class="h">{{ entry.title }}</h6>
+													</div><!--/.text-->
+												</a>
+											</div><!--/.module-recipe-->
+										</div><!--/.col-->
+										{% if loop.last %}
+											</div><!--/.layout-grid-->
+										{% endif %}
+
+									{% else %}
+										<p>There are no results matching your search/filters.</p>
+									{% endfor %}
+								</div><!--/.col-->
+
+								{% if pageInfo.totalPages > 1 %}
+									<div class="col">
+										<nav class="nav-pager">
+											<div class="prev">
+												{% if pageInfo.prevUrl %}
+													<a href="{{ pageInfo.prevUrl }}">&lt; Prev</a>
+												{% endif %}
+											</div><!--/.prev-->
+											
+											<div class="pages">
+												{% for page, url in pageInfo.getPrevUrls(3) %}
+												   <a href="{{ url }}">{{ page }}</a>
+												{% endfor %}
+
+												<span class="current">{{ pageInfo.currentPage }}</span>
+
+												{% for page, url in pageInfo.getNextUrls(3) %}
+												   <a href="{{ url }}">{{ page }}</a>
+												{% endfor %}
+											</div><!--/.pages-->
+											
+											<div class="next">
+												<a href="{{ pageInfo.nextUrl }}">Next &gt;</a>
+											</div><!--/.next-->
+										</nav><!--/.nav-pager-->
+									</div><!--/.col-->
+								{% endif %}
+							</div><!--/.layout-grid-->
+							
+						</div><!--/.content-->
+					</div><!--/.container-->
+				</div><!--/.gutter-->
+			</div><!--/.section-->
+		</section><!--/.section-wrap-->
+	</section><!--/.section-group-->
+
+	<footer class="section-group">
+		<section class="section-wrap">
+			<div class="section">
+				<div class="gutter">
+					<div class="container">
+						<div class="content">
+						</div><!--/.content-->
+					</div><!--/.container-->
+				</div><!--/.gutter-->
+			</div><!--/.section-->
+		</section><!--/.section-wrap-->
+	</footer><!--/.section-group-->
+{% endblock %}

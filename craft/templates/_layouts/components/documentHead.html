@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{% if entry is defined %}
+		{% set pageTitle = entry.title %}
+	{% endif %}
+	<title>{% if pageTitle is defined %}{{ pageTitle }} | {% endif %}{{ currentSite.name }}</title>
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+	<link rel="alternate icon" href="/favicon.ico">
+	<link rel="stylesheet" href="{{ rev('css/main.css') }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="noindex,noarchive,nofollow">
+</head>
+<body>

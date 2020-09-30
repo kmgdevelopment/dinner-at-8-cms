@@ -1,0 +1,30 @@
+# SASS
+src/assets/sass/.sass-cache
+
+# Grunt
+node_modules
+
+# Server Files
+*.DS_Store
+dist/.htaccess
+
+# Craft Files
+dist/cpresources/*
+craft/.env
+craft/.env.DEV
+craft/.env.PROD
+craft/.env.STAGE
+craft/.idea
+craft/storage/backups/*
+craft/storage/logs/*
+craft/storage/runtime/*
+craft/storage/config-backups/*
+craft/storage/config-deltas/*
+craft/vendor/*
+
+# Generated Files
+dist/files/manipulated/*
+
+# Keep Directories
+# http://goo.gl/3PMQna
+!.gitkeep

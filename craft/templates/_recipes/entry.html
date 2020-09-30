@@ -1,0 +1,137 @@
+{% extends '_layouts/global' %}
+
+{% block pageBody %}
+	<header class="section-group banner">
+		<section class="section-wrap">
+			<div class="section">
+				<div class="gutter">
+					<div class="container">
+						<div class="content">
+							<h1>{{ entry.title }}</h1>
+							{% if entry.recipeServes|length %}
+								<small class="amount">Serves: {{ entry.recipeServes }}</small>
+							{% endif %}
+							{% if entry.recipeMakes[0].quantity|length %}
+								<small class="amount">Makes: {{ entry.recipeMakes[0].quantity }} {{ entry.recipeMakes[0].unit }}</small>
+							{% endif %}
+						</div><!--/.content-->
+					</div><!--/.container-->
+				</div><!--/.gutter-->
+			</div><!--/.section-->
+		</section><!--/.section-wrap-->
+	</header><!--/.banner-->
+
+	<section class="section-group">
+		<section class="section-wrap">
+			{% if entry.recipeImg|length %}
+				<div class="section">
+					<div class="gutter">
+						<div class="container">
+							<div class="content">
+								<div class="structure-main-img">
+									<img src="{{ entry.recipeImg.one.url }}" alt="{{ entry.title }}">
+								</div><!--/.structure-main-img-->
+							</div><!--/.content-->
+						</div><!--/.container-->
+					</div><!--/.gutter-->
+				</div><!--/.section-->
+			{% endif %}
+
+			<div class="section">
+				<div class="gutter">
+					<div class="container">
+						<div class="content">
+							<div class="layout-grid">
+								<div class="col">
+									<div class="ux-wakelock">
+										<input type="checkbox" value="1" name="wakelock" id="wakelock">
+										<label for="wakelock">Prevent Sleep</label>
+									</div><!--/.ux-wakelock-->
+								</div><!--/.col-->
+
+								<div class="col">
+									<div class="structure-ingredients">
+										<h5>Ingredients</h5>
+
+										{% for block in entry.recipeIngredients.all %}
+											{% if block.type == 'heading' %}
+												<h6>{{ block.text }}</h6>
+										
+											{% elseif block.type == 'ingredientList' %}
+												<ul>
+												{% for theIngredient in block.list.all %}
+													<li>{{ theIngredient.quantity }} {{ theIngredient.unit }} {{ theIngredient.ingredient }}{% if theIngredient.preparation %}, {{ theIngredient.preparation }}{% endif %}</li>
+												{% endfor %}
+												</ul>
+											{% endif %}
+										{% endfor %}
+									</div><!--/.structure-ingredients-->
+								</div><!--/.col-->
+							</div><!--/.layout-grid-->
+						</div><!--/.content-->
+					</div><!--/.container-->
+				</div><!--/.gutter-->
+			</div><!--/.section-->
+
+			<div class="section">
+				<div class="gutter">
+					<div class="container">
+						<div class="content">
+							<div class="layout-grid">
+								<div class="col">
+									<div class="structure-instructions">
+										<h5>Instructions</h5>
+										{% for block in entry.recipeInstructions.all %}
+											{% if block.type == 'heading' %}
+												<h6>{{ block.text }}</h6>
+										
+											{% elseif block.type == 'instructionList' %}
+												<ol>
+													{% for instruction in block.theList.all %}
+														<li>{{ instruction.description }}</li>
+													{% endfor %}
+												</ol>
+											{% endif %}
+										{% endfor %}
+									</div><!--/.structure-instructions-->
+								</div><!--/.col-->
+								
+								{% if entry.recipeNotes|length %}
+									<div class="col">
+										<h5>Notes</h5>
+										{{ entry.recipeNotes }}
+									</div><!--/.col-->
+								{% endif %}
+							</div><!--/.layout-grid-->
+						</div><!--/.content-->
+					</div><!--/.container-->
+				</div><!--/.gutter-->
+			</div><!--/.section-->
+		</section><!--/.section-wrap-->
+	</section><!--/.section-group-->
+
+	<footer class="section-group">
+		<section class="section-wrap">
+			<div class="section">
+				<div class="gutter">
+					<div class="container">
+						<div class="content">
+							{% if entry.recipeSourceName|length %}
+								<p>
+									Source:
+									{% if entry.recipeSourceUrl|length %}
+										<a href="{{ entry.recipeSourceUrl }}">
+									{% endif %}
+									 {{ entry.recipeSourceName }}
+									{% if entry.recipeSourceUrl|length %}
+										</a>
+									{% endif %}
+								</p>
+							{% endif %}
+						</div><!--/.content-->
+					</div><!--/.container-->
+				</div><!--/.gutter-->
+			</div><!--/.section-->
+		</section><!--/.section-wrap-->
+	</footer><!--/.section-group-->
+{% endblock %}

@@ -1,0 +1,26 @@
+{
+  "name": "front-end-v2",
+  "version": "1.0.0",
+  "description": "Front-end bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristen Grote",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "dropkickjs": "^2.2.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jquery": "^3.3.1",
+    "jquery-validation": "^1.18.0",
+    "normalize-scss": "^7.0.1",
+    "nosleep.js": "^0.11.0",
+    "outdatedbrowser": "^1.1.5",
+    "prismjs": "^1.15.0",
+    "svg4everybody": "^2.1.9"
+  }
+}
