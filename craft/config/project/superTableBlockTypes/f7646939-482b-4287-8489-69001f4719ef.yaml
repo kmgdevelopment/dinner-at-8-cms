@@ -4,12 +4,12 @@ fieldLayouts:
     tabs:
       -
         fields:
-          079b7b72-146c-4d30-88e3-156896f78cf3:
-            required: false
-            sortOrder: 3
           0cf58473-1cfd-473e-8e5e-312c9d73e1a2:
             required: false
             sortOrder: 4
+          079b7b72-146c-4d30-88e3-156896f78cf3:
+            required: false
+            sortOrder: 3
           5708c9ae-1357-4fc8-a376-a09d79128d68:
             required: false
             sortOrder: 2
@@ -19,12 +19,12 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  079b7b72-146c-4d30-88e3-156896f78cf3:
+  0cf58473-1cfd-473e-8e5e-312c9d73e1a2:
     contentColumnType: text
     fieldGroup: null
-    handle: ingredient
+    handle: preparation
     instructions: ''
-    name: Ingredient
+    name: Preparation
     searchable: true
     settings:
       byteLimit: null
@@ -37,12 +37,12 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  0cf58473-1cfd-473e-8e5e-312c9d73e1a2:
+  079b7b72-146c-4d30-88e3-156896f78cf3:
     contentColumnType: text
     fieldGroup: null
-    handle: preparation
+    handle: ingredient
     instructions: ''
-    name: Preparation
+    name: Ingredient
     searchable: true
     settings:
       byteLimit: null
