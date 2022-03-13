@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47657fa261bd149f0ca7b23a1c278d42",
+    "content-hash": "40c4a553617468d09ab555de1f7c997f",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -385,11 +385,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.6.18",
+            "version": "3.7.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/357c5ab77cb09c9c9ab85bde80ea026e864406be",
-                "reference": "357c5ab77cb09c9c9ab85bde80ea026e864406be",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/972d611d3f38d8ee830df485618d3064e3de4f19",
+                "reference": "972d611d3f38d8ee830df485618d3064e3de4f19",
                 "shasum": ""
             },
             "require": {
@@ -473,7 +473,7 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2021-07-13T14:07:05+00:00"
+            "time": "2021-08-07T00:17:03+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -553,11 +553,11 @@
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.8.7",
+            "version": "2.8.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/dd70560df56ec7aef87fe52115fa571d13468714",
-                "reference": "dd70560df56ec7aef87fe52115fa571d13468714",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/c0272678a9d9bdc3990b36079e42667acdcd7016",
+                "reference": "c0272678a9d9bdc3990b36079e42667acdcd7016",
                 "shasum": ""
             },
             "require": {
@@ -598,7 +598,7 @@
                 "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
                 "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
             },
-            "time": "2021-05-01T18:13:34+00:00"
+            "time": "2021-08-02T08:18:53+00:00"
         },
         {
             "name": "craftcms/server-check",
