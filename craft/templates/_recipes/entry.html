@@ -60,7 +60,13 @@
 											{% elseif block.type == 'ingredientList' %}
 												<ul>
 												{% for theIngredient in block.list.all %}
-													<li>{{ theIngredient.quantity }} {{ theIngredient.unit }} {{ theIngredient.ingredient }}{% if theIngredient.preparation %}, {{ theIngredient.preparation }}{% endif %}</li>
+													{# convert fractions to decimals for comparison #}
+													{% set qInt = theIngredient.quantity|number_format %}
+													{% set fractionArray = theIngredient.quantity|split('/') %}
+													{% if fractionArray|length > 1 %}
+														{% set qInt = fractionArray[0]|number_format / fractionArray[1] %}
+													{% endif %}
+													<li>{{ theIngredient.quantity }} {{ theIngredient.unit }}{% if (theIngredient.unit|length and qInt > 1) and (theIngredient.unit != 'tsp' and theIngredient.unit != 'tbsp') %}s{% endif %} {{ theIngredient.ingredient }}{% if theIngredient.preparation %}, {{ theIngredient.preparation }}{% endif %}</li>
 												{% endfor %}
 												</ul>
 											{% endif %}

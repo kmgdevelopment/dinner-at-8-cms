@@ -250,7 +250,9 @@
 											</div><!--/.pages-->
 											
 											<div class="next">
-												<a href="{{ pageInfo.nextUrl }}">Next &gt;</a>
+												{% if pageInfo.nextUrl %}
+													<a href="{{ pageInfo.nextUrl }}">Next &gt;</a>
+												{% endif %}
 											</div><!--/.next-->
 										</nav><!--/.nav-pager-->
 									</div><!--/.col-->

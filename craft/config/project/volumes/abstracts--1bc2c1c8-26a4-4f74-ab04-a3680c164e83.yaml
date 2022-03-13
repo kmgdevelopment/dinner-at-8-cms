@@ -1,8 +1,38 @@
+fieldLayouts:
+  34bc408a-68ed-47b8-8b31-31b6c6309cf6:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
 handle: abstracts
 hasUrls: true
 name: Abstracts
 settings:
-  path: '/Users/kristengrote/Dropbox/Dinner at 8/dist/files/abstracts'
+  path: $ASSETS_FILE_SYSTEM_PATH_ABSTRACTS
 sortOrder: 1
 type: craft\volumes\Local
 url: '@defaultSiteUrl/files/abstracts'
