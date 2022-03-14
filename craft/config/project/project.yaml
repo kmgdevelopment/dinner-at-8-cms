@@ -1,4 +1,4 @@
-dateModified: 1647203455
+dateModified: 1647288101
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -16,6 +16,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
   redactor:
     edition: standard
     enabled: true
