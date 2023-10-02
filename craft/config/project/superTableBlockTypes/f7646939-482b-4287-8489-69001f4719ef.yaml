@@ -1,25 +1,50 @@
-field: ffaf3413-aa37-4373-87c3-a6429e660f3c
+field: ffaf3413-aa37-4373-87c3-a6429e660f3c # List
 fieldLayouts:
   f8f5eb72-0568-4b09-ba6e-1b839083b30a:
     tabs:
       -
-        fields:
-          0cf58473-1cfd-473e-8e5e-312c9d73e1a2:
-            required: false
-            sortOrder: 4
-          079b7b72-146c-4d30-88e3-156896f78cf3:
-            required: false
-            sortOrder: 3
-          5708c9ae-1357-4fc8-a376-a09d79128d68:
-            required: false
-            sortOrder: 2
-          fa3b48ba-5e5b-4476-b793-17177f4abb16:
-            required: false
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: fa3b48ba-5e5b-4476-b793-17177f4abb16 # Quantity
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5708c9ae-1357-4fc8-a376-a09d79128d68 # Unit
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 079b7b72-146c-4d30-88e3-156896f78cf3 # Ingredient
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0cf58473-1cfd-473e-8e5e-312c9d73e1a2 # Preparation
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
-  0cf58473-1cfd-473e-8e5e-312c9d73e1a2:
+  0cf58473-1cfd-473e-8e5e-312c9d73e1a2: # Preparation
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: preparation
@@ -33,11 +58,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  079b7b72-146c-4d30-88e3-156896f78cf3:
+  079b7b72-146c-4d30-88e3-156896f78cf3: # Ingredient
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: ingredient
@@ -51,11 +78,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  5708c9ae-1357-4fc8-a376-a09d79128d68:
+  5708c9ae-1357-4fc8-a376-a09d79128d68: # Unit
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: unit
@@ -145,7 +174,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  fa3b48ba-5e5b-4476-b793-17177f4abb16:
+  fa3b48ba-5e5b-4476-b793-17177f4abb16: # Quantity
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: quantity
@@ -159,7 +189,8 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText

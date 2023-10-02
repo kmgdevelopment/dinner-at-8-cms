@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: integer(10)
-fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeServes
 instructions: ''
 name: Serves
@@ -8,8 +9,10 @@ settings:
   decimals: 0
   defaultValue: null
   max: null
-  min: '0'
-  prefix: ''
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
   size: '2'
   suffix: People
 translationKeyFormat: null

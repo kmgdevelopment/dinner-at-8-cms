@@ -1,26 +1,31 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeImg
 instructions: ''
 name: Image
 searchable: true
 settings:
+  allowSelfRelations: false
+  allowUploads: true
   allowedKinds: null
-  defaultUploadLocationSource: 'volume:1bc2c1c8-26a4-4f74-ab04-a3680c164e83'
+  defaultUploadLocationSource: 'volume:cb756273-ee04-4796-b4b9-cb450fc5a38a' # Abstracts
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
+  previewMode: full
   restrictFiles: ''
   selectionLabel: ''
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:1bc2c1c8-26a4-4f74-ab04-a3680c164e83'
+  singleUploadLocationSource: 'volume:cb756273-ee04-4796-b4b9-cb450fc5a38a' # Abstracts
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'
   targetSiteId: null
   useSingleFolder: true
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site

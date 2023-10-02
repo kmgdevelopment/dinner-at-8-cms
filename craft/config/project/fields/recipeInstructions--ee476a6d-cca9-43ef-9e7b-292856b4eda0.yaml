@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeInstructions
 instructions: ''
 name: Instructions
@@ -8,6 +9,7 @@ settings:
   contentTable: '{{%matrixcontent_recipeinstructions}}'
   maxBlocks: ''
   minBlocks: ''
+  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

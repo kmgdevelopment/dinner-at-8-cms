@@ -1,9 +1,40 @@
+defaultPlacement: end
+fieldLayouts:
+  7069f68b-96f1-46bc-a678-7ab8c8ea81a6:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
 handle: meal
 name: 'Meal Type'
 siteSettings:
-  19752013-301c-4d1e-835a-85c15af48ac0:
+  19752013-301c-4d1e-835a-85c15af48ac0: # Dinner at 8
     hasUrls: true
-    template: ''
+    template: null
     uriFormat: 'meal-type/{slug}'
 structure:
   maxLevels: null

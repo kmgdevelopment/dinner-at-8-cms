@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe # Common
 handle: holidayCats
 instructions: ''
 name: Holiday
@@ -7,14 +8,16 @@ searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
+  allowSelfRelations: false
   branchLimit: ''
   limit: null
   localizeRelations: false
   selectionLabel: ''
-  source: 'group:02cd0f87-4960-4c1c-a0ab-e31ebb79ec7b'
+  showSiteMenu: true
+  source: 'group:02cd0f87-4960-4c1c-a0ab-e31ebb79ec7b' # Holiday
   sources: '*'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

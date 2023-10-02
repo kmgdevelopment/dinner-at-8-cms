@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe # Common
 handle: mealCats
 instructions: ''
 name: 'Meal Type'
@@ -7,14 +8,16 @@ searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
+  allowSelfRelations: false
   branchLimit: ''
   limit: null
   localizeRelations: false
   selectionLabel: ''
-  source: 'group:17d65186-6f71-4a63-98a0-616a23f4aadf'
+  showSiteMenu: true
+  source: 'group:17d65186-6f71-4a63-98a0-616a23f4aadf' # Meal Type
   sources: '*'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

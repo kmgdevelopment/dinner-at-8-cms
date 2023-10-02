@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe
+fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe # Common
 handle: seasonCats
 instructions: ''
 name: Season
@@ -7,14 +8,16 @@ searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
+  allowSelfRelations: false
   branchLimit: ''
   limit: null
   localizeRelations: false
   selectionLabel: ''
-  source: 'group:7955371b-f46b-47a4-99f0-8c79e0ed88d2'
+  showSiteMenu: true
+  source: 'group:7955371b-f46b-47a4-99f0-8c79e0ed88d2' # Season
   sources: '*'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

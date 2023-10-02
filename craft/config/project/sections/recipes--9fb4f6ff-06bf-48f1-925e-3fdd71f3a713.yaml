@@ -1,9 +1,10 @@
+defaultPlacement: end
 enableVersioning: true
 handle: recipes
 name: Recipes
 propagationMethod: all
 siteSettings:
-  19752013-301c-4d1e-835a-85c15af48ac0:
+  19752013-301c-4d1e-835a-85c15af48ac0: # Dinner at 8
     enabledByDefault: true
     hasUrls: true
     template: _recipes/entry
