@@ -4,16 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "907a310ce3062f57cc539339db89be22",
+    "content-hash": "c43304688966901bdf3438b1e2395cce",
     "packages": [
         {
             "name": "aws/aws-crt-php",
             "version": "v1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "2f1dc7b7eda080498be96a4a6d683a41583030e9"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/2f1dc7b7eda080498be96a4a6d683a41583030e9",
@@ -22,10 +17,6 @@
             },
             "require": {
                 "php": ">=5.5"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35||^5.6.3||^9.5",
-                "yoast/phpunit-polyfills": "^1.0"
             },
             "suggest": {
                 "ext-awscrt": "Make sure you install awscrt native extension to use any of the functionality."
@@ -36,7 +27,6 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -54,10 +44,6 @@
                 "crt",
                 "sdk"
             ],
-            "support": {
-                "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.2"
-            },
             "time": "2023-07-20T16:49:55+00:00"
         },
         {
@@ -302,11 +288,11 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.12",
+            "version": "2.2.19",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/ba61e768b410736efe61df01b61f1ec44f51474f",
-                "reference": "ba61e768b410736efe61df01b61f1ec44f51474f",
+                "url": "https://api.github.com/repos/composer/composer/zipball/30ff21a9af9a10845436abaeeb0bb7276e996d24",
+                "reference": "30ff21a9af9a10845436abaeeb0bb7276e996d24",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +354,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2022-04-13T14:42:25+00:00"
+            "time": "2023-02-04T13:54:48+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -593,24 +579,16 @@
         },
         {
             "name": "craftcms/aws-s3",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/aws-s3.git",
-                "reference": "d8515e3e8dc8867b635ea87b9ed578c06184e497"
-            },
+            "version": "1.3.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/aws-s3/zipball/d8515e3e8dc8867b635ea87b9ed578c06184e497",
-                "reference": "d8515e3e8dc8867b635ea87b9ed578c06184e497",
+                "url": "https://api.github.com/repos/craftcms/aws-s3/zipball/670aaac4d18adaf98ef3a8896ebd9daf663b099e",
+                "reference": "670aaac4d18adaf98ef3a8896ebd9daf663b099e",
                 "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^3.4.0",
                 "league/flysystem-aws-s3-v3": "^1.0.28"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "^0.12.96"
             },
             "type": "craft-plugin",
             "extra": {
@@ -623,7 +601,6 @@
                     "craft\\awss3\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -635,35 +612,35 @@
             ],
             "description": "Amazon S3 integration for Craft CMS",
             "keywords": [
-                "Flysystem",
                 "aws",
                 "cms",
                 "craftcms",
+                "flysystem",
                 "s3",
                 "yii2"
             ],
             "support": {
-                "docs": "https://github.com/craftcms/aws-s3/blob/master/README.md",
                 "email": "support@craftcms.com",
                 "issues": "https://github.com/craftcms/aws-s3/issues?state=open",
-                "rss": "https://github.com/craftcms/aws-s3/commits/master.atom",
-                "source": "https://github.com/craftcms/aws-s3"
+                "source": "https://github.com/craftcms/aws-s3",
+                "docs": "https://github.com/craftcms/aws-s3/blob/master/README.md",
+                "rss": "https://github.com/craftcms/aws-s3/commits/master.atom"
             },
-            "time": "2021-10-21T15:06:05+00:00"
+            "time": "2023-03-16T22:47:23+00:00"
         },
         {
             "name": "craftcms/cms",
-            "version": "3.7.40",
+            "version": "3.8.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/3feb16bdff0cdb1ac347cd746a8a2de3a866859c",
-                "reference": "3feb16bdff0cdb1ac347cd746a8a2de3a866859c",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/3c05446b1ff0832cef072754617d3b84a6413762",
+                "reference": "3c05446b1ff0832cef072754617d3b84a6413762",
                 "shasum": ""
             },
             "require": {
-                "composer/composer": "2.2.12",
+                "composer/composer": "2.2.19",
                 "craftcms/oauth2-craftid": "~1.0.0",
-                "craftcms/plugin-installer": "~1.5.6",
+                "craftcms/plugin-installer": "~1.6.0",
                 "craftcms/server-check": "~1.2.0",
                 "creocoder/yii2-nested-sets": "~0.9.0",
                 "elvanto/litemoji": "^3.0.1",
@@ -682,11 +659,10 @@
                 "league/oauth2-client": "^2.6.0",
                 "mikehaertl/php-shellcommand": "^1.6.3",
                 "php": ">=7.2.5",
-                "pixelandtonic/imagine": "~1.2.4.1",
+                "pixelandtonic/imagine": "~1.3.3.1",
                 "seld/cli-prompt": "^1.0.4",
                 "symfony/yaml": "^5.2.1",
-                "true/punycode": "^2.1.1",
-                "twig/twig": "~2.14.3",
+                "twig/twig": "~2.15.3",
                 "voku/stringy": "^6.4.0",
                 "webonyx/graphql-php": "~14.11.5",
                 "yiisoft/yii2": "~2.0.45.0",
@@ -695,7 +671,8 @@
                 "yiisoft/yii2-swiftmailer": "^2.1.2"
             },
             "conflict": {
-                "league/oauth2-client": "2.4.0"
+                "league/oauth2-client": "2.4.0",
+                "webonyx/graphql-php": "14.11.7"
             },
             "provide": {
                 "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
@@ -740,16 +717,11 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2022-05-03T19:14:01+00:00"
+            "time": "2023-03-08T18:03:20+00:00"
         },
         {
             "name": "craftcms/html-field",
             "version": "1.0.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/html-field.git",
-                "reference": "fa7353005fc428127d868db467fec639876219f5"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/craftcms/html-field/zipball/fa7353005fc428127d868db467fec639876219f5",
@@ -759,17 +731,12 @@
             "require": {
                 "craftcms/cms": "^3.6.0"
             },
-            "require-dev": {
-                "craftcms/ecs": "dev-main",
-                "craftcms/phpstan": "dev-main"
-            },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "craft\\htmlfield\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -781,11 +748,11 @@
             ],
             "description": "Base class for Craft CMS field types with HTML values.",
             "support": {
-                "docs": "https://github.com/craftcms/html-field/blob/main/README.md",
                 "email": "support@craftcms.com",
                 "issues": "https://github.com/craftcms/html-field/issues?state=open",
-                "rss": "https://github.com/craftcms/html-field/commits/main.atom",
-                "source": "https://github.com/craftcms/html-field"
+                "source": "https://github.com/craftcms/html-field",
+                "docs": "https://github.com/craftcms/html-field/blob/main/README.md",
+                "rss": "https://github.com/craftcms/html-field/commits/main.atom"
             },
             "time": "2022-11-16T11:12:00+00:00"
         },
@@ -831,11 +798,11 @@
         },
         {
             "name": "craftcms/plugin-installer",
-            "version": "1.5.7",
+            "version": "1.6.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/plugin-installer/zipball/23ec472acd4410b70b07d5a02b2b82db9ee3f66b",
-                "reference": "23ec472acd4410b70b07d5a02b2b82db9ee3f66b",
+                "url": "https://api.github.com/repos/craftcms/plugin-installer/zipball/bd1650e8da6d5ca7a8527068d3e51c34bc7b6b4f",
+                "reference": "bd1650e8da6d5ca7a8527068d3e51c34bc7b6b4f",
                 "shasum": ""
             },
             "require": {
@@ -863,29 +830,20 @@
                 "installer",
                 "plugin"
             ],
-            "time": "2021-02-18T02:01:38+00:00"
+            "time": "2023-02-22T13:17:00+00:00"
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.10.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/redactor.git",
-                "reference": "cc31c0a64a0a733337218d7ffd08b0424dbd8763"
-            },
+            "version": "2.10.12",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/cc31c0a64a0a733337218d7ffd08b0424dbd8763",
-                "reference": "cc31c0a64a0a733337218d7ffd08b0424dbd8763",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/17c0cace54a53dc1d874484568b8ce74575bf37c",
+                "reference": "17c0cace54a53dc1d874484568b8ce74575bf37c",
                 "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^3.6.0",
                 "craftcms/html-field": "^1.0.5"
-            },
-            "require-dev": {
-                "craftcms/ecs": "dev-main",
-                "craftcms/phpstan": "dev-main"
             },
             "type": "craft-plugin",
             "extra": {
@@ -898,7 +856,6 @@
                     "craft\\redactor\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -910,20 +867,20 @@
             ],
             "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
             "keywords": [
-                "Redactor",
                 "cms",
                 "craftcms",
                 "html",
+                "redactor",
                 "yii2"
             ],
             "support": {
-                "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
                 "email": "support@craftcms.com",
                 "issues": "https://github.com/craftcms/redactor/issues?state=open",
-                "rss": "https://github.com/craftcms/redactor/commits/v2.atom",
-                "source": "https://github.com/craftcms/redactor"
+                "source": "https://github.com/craftcms/redactor",
+                "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
+                "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
             },
-            "time": "2022-05-04T19:01:46+00:00"
+            "time": "2023-03-16T22:52:43+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -1750,11 +1707,6 @@
         {
             "name": "league/flysystem-aws-s3-v3",
             "version": "1.0.30",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
-                "reference": "af286f291ebab6877bac0c359c6c2cb017eb061d"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/af286f291ebab6877bac0c359c6c2cb017eb061d",
@@ -1765,10 +1717,6 @@
                 "aws/aws-sdk-php": "^3.20.0",
                 "league/flysystem": "^1.0.40",
                 "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "henrikbjorn/phpspec-code-coverage": "~1.0.1",
-                "phpspec/phpspec": "^2.0.0"
             },
             "type": "library",
             "extra": {
@@ -1781,7 +1729,6 @@
                     "League\\Flysystem\\AwsS3v3\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1792,24 +1739,6 @@
                 }
             ],
             "description": "Flysystem adapter for the AWS S3 SDK v3.x",
-            "support": {
-                "issues": "https://github.com/thephpleague/flysystem-aws-s3-v3/issues",
-                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/1.0.30"
-            },
-            "funding": [
-                {
-                    "url": "https://offset.earth/frankdejonge",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/frankdejonge",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2022-07-02T13:51:38+00:00"
         },
         {
@@ -1933,11 +1862,6 @@
         {
             "name": "mtdowling/jmespath.php",
             "version": "2.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "bbb69a935c2cbb0c03d7f481a238027430f6440b"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/bbb69a935c2cbb0c03d7f481a238027430f6440b",
@@ -1947,10 +1871,6 @@
             "require": {
                 "php": "^7.2.5 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.17"
-            },
-            "require-dev": {
-                "composer/xdebug-handler": "^3.0.3",
-                "phpunit/phpunit": "^8.5.33"
             },
             "bin": [
                 "bin/jp.php"
@@ -1969,7 +1889,6 @@
                     "JmesPath\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1990,10 +1909,6 @@
                 "json",
                 "jsonpath"
             ],
-            "support": {
-                "issues": "https://github.com/jmespath/jmespath.php/issues",
-                "source": "https://github.com/jmespath/jmespath.php/tree/2.7.0"
-            },
             "time": "2023-08-25T10:54:48+00:00"
         },
         {
@@ -2230,17 +2145,18 @@
         },
         {
             "name": "pixelandtonic/imagine",
-            "version": "1.2.4.2",
+            "version": "1.3.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pixelandtonic/Imagine/zipball/5ee4b6a365497818815ba50738c8dcbb555c9fd3",
-                "reference": "5ee4b6a365497818815ba50738c8dcbb555c9fd3",
+                "url": "https://api.github.com/repos/pixelandtonic/Imagine/zipball/4d9bb596ff60504e37ccf9103c0bb705dba7fec6",
+                "reference": "4d9bb596ff60504e37ccf9103c0bb705dba7fec6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.5"
             },
             "suggest": {
+                "ext-exif": "to read EXIF metadata",
                 "ext-gd": "to use the GD implementation",
                 "ext-gmagick": "to use the Gmagick implementation",
                 "ext-imagick": "to use the Imagick implementation"
@@ -2248,7 +2164,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.7-dev"
+                    "dev-develop": "1.x-dev"
                 }
             },
             "autoload": {
@@ -2274,7 +2190,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2021-06-22T18:26:46+00:00"
+            "time": "2023-01-03T19:18:06+00:00"
         },
         {
             "name": "psr/container",
@@ -3672,48 +3588,12 @@
             "time": "2023-04-23T19:33:36+00:00"
         },
         {
-            "name": "true/punycode",
-            "version": "v2.1.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/true/php-punycode/zipball/a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
-                "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "symfony/polyfill-mbstring": "^1.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "TrueBV\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Renan Gonçalves",
-                    "email": "renan.saddam@gmail.com"
-                }
-            ],
-            "description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
-            "homepage": "https://github.com/true/php-punycode",
-            "keywords": [
-                "idna",
-                "punycode"
-            ],
-            "time": "2016-11-16T10:37:54+00:00"
-        },
-        {
             "name": "twig/twig",
-            "version": "v2.14.13",
+            "version": "v2.15.5",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/66856cd0459df3dc97d32077a98454dc2a0ee75a",
-                "reference": "66856cd0459df3dc97d32077a98454dc2a0ee75a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/fc02a6af3eeb97c4bf5650debc76c2eda85ac22e",
+                "reference": "fc02a6af3eeb97c4bf5650debc76c2eda85ac22e",
                 "shasum": ""
             },
             "require": {
@@ -3725,7 +3605,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.14-dev"
+                    "dev-master": "2.15-dev"
                 }
             },
             "autoload": {
@@ -3761,7 +3641,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2022-04-06T06:45:17+00:00"
+            "time": "2023-05-03T17:49:41+00:00"
         },
         {
             "name": "verbb/base",
@@ -3795,11 +3675,11 @@
         },
         {
             "name": "verbb/super-table",
-            "version": "2.7.2",
+            "version": "2.7.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/super-table/zipball/41d420675bcc04e8db08eacc69b10c5bbff6cf54",
-                "reference": "41d420675bcc04e8db08eacc69b10c5bbff6cf54",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/594e3330c89b9abb6acbb64090bbb14997f1b0e0",
+                "reference": "594e3330c89b9abb6acbb64090bbb14997f1b0e0",
                 "shasum": ""
             },
             "require": {
@@ -3844,7 +3724,7 @@
                 "docs": "https://github.com/verbb/super-table",
                 "rss": "https://github.com/verbb/super-table/commits/v2.atom"
             },
-            "time": "2022-05-15T00:47:23+00:00"
+            "time": "2023-03-28T11:42:34+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
