@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93f61615cc64a55350f0ea2542d5b366",
+    "content-hash": "b7f68969ce6ce53244f72e3c0609f570",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -681,11 +681,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.9.0",
+            "version": "3.9.4",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/960cb2f2adb127e586a609d2ad47e25e5d320e38",
-                "reference": "960cb2f2adb127e586a609d2ad47e25e5d320e38",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/22d9f40bdb1762a0682aa5e127b78c166f44bb67",
+                "reference": "22d9f40bdb1762a0682aa5e127b78c166f44bb67",
                 "shasum": ""
             },
             "require": {
@@ -765,7 +765,7 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2023-08-22T15:53:28+00:00"
+            "time": "2023-09-26T19:23:21+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -4951,5 +4951,5 @@
     "platform-overrides": {
         "php": "7.3.29"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
