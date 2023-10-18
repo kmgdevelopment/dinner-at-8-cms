@@ -1,4 +1,4 @@
-dateModified: 1696283547
+dateModified: 1697668611
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -7,6 +7,25 @@ email:
   transportSettings:
     command: ''
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  abstracts:
+    hasUrls: true
+    name: Abstracts
+    settings:
+      addSubfolderToRootUrl: '1'
+      autoFocalPoint: ''
+      bucket: content.dinnerat8.kristengrote.com
+      bucketSelectionMode: choose
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: '30 days'
+      keyId: $S3_ACCESS_KEY_ID
+      makeUploadsPublic: '1'
+      region: us-west-2
+      secret: $S3_SECRET_ACCESS_KEY
+      subfolder: abstracts
+    type: craft\awss3\Fs
+    url: 'https://s3.us-west-2.amazonaws.com/content.dinnerat8.kristengrote.com'
 meta:
   __names__:
     0bbf8946-303c-427e-8f8e-4f51742b9f6b: Text # Text
@@ -56,7 +75,7 @@ plugins:
   aws-s3:
     edition: standard
     enabled: true
-    schemaVersion: '1.2'
+    schemaVersion: '2.0'
   redactor:
     edition: standard
     enabled: true
@@ -64,15 +83,16 @@ plugins:
   super-table:
     edition: standard
     enabled: true
-    schemaVersion: 2.2.1
+    schemaVersion: 3.0.0
 system:
   edition: solo
   live: true
   name: 'Dinner at 8'
-  schemaVersion: 3.8.0.1
+  schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
+  deactivateByDefault: false
   defaultGroup: null
   photoSubpath: ''
   photoVolumeUid: null

@@ -23,30 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\AssetTitleField
+            type: craft\fieldlayoutelements\assets\AssetTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
+fs: abstracts
 handle: abstracts
 hasUrls: true
 name: Abstracts
-settings:
-  addSubfolderToRootUrl: '1'
-  autoFocalPoint: ''
-  bucket: content.dinnerat8.kristengrote.com
-  bucketSelectionMode: choose
-  cfDistributionId: ''
-  cfPrefix: ''
-  expires: '30 days'
-  keyId: $S3_ACCESS_KEY_ID
-  makeUploadsPublic: '1'
-  region: us-west-2
-  secret: $S3_SECRET_ACCESS_KEY
-  storageClass: ''
-  subfolder: abstracts
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\awss3\Volume
 url: 'https://s3.us-west-2.amazonaws.com/content.dinnerat8.kristengrote.com'

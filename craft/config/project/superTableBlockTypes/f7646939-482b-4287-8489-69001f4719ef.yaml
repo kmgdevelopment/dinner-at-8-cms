@@ -8,7 +8,7 @@ fieldLayouts:
             fieldUid: fa3b48ba-5e5b-4476-b793-17177f4abb16 # Quantity
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -17,7 +17,7 @@ fieldLayouts:
             fieldUid: 5708c9ae-1357-4fc8-a376-a09d79128d68 # Unit
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -26,7 +26,7 @@ fieldLayouts:
             fieldUid: 079b7b72-146c-4d30-88e3-156896f78cf3 # Ingredient
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -35,7 +35,7 @@ fieldLayouts:
             fieldUid: 0cf58473-1cfd-473e-8e5e-312c9d73e1a2 # Preparation
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
