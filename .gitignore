@@ -1,9 +1,3 @@
-# SASS
-src/assets/sass/.sass-cache
-
-# Grunt
-node_modules
-
 # Server Files
 *.DS_Store
 dist/.htaccess
@@ -22,8 +16,8 @@ craft/storage/config-backups/*
 craft/storage/config-deltas/*
 craft/vendor/*
 
-# Generated Files
-dist/files/manipulated/*
+# Local Config
+*.code-workspace
 
 # Keep Directories
 # http://goo.gl/3PMQna
