@@ -1,5 +1,5 @@
 name: dinner-at-8-cms
-type: php
+type: craftcms
 docroot: dist
 php_version: "8.1"
 webserver_type: nginx-fpm

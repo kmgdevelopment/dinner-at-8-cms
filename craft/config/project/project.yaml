@@ -1,4 +1,4 @@
-dateModified: 1697668611
+dateModified: 1697669773
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -76,6 +76,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: '2.0'
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   redactor:
     edition: standard
     enabled: true
