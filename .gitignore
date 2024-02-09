@@ -18,6 +18,7 @@ craft/vendor/*
 
 # Local Config
 *.code-workspace
+*.vscode
 
 # Keep Directories
 # http://goo.gl/3PMQna
