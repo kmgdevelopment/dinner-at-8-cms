@@ -1,6 +1,7 @@
 # Server Files
 *.DS_Store
 dist/.htaccess
+public
 
 # Craft Files
 dist/cpresources/*
