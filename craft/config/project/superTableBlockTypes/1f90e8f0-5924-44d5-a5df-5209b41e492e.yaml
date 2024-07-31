@@ -27,7 +27,7 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      ckeConfig: f18a4952-30da-4381-a003-93f23440e392 # Default
+      ckeConfig: 51a7b6e9-ddac-4ad7-98a0-50fa5e3d710a # Default
       columnType: text
       defaultTransform: ''
       enableSourceEditingForNonAdmins: true

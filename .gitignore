@@ -6,9 +6,8 @@ public
 # Craft Files
 dist/cpresources/*
 craft/.env
-craft/.env.DEV
-craft/.env.PROD
-craft/.env.STAGE
+craft/.env.*
+!craft/.env.example
 craft/.idea
 craft/storage/backups/*
 craft/storage/logs/*
@@ -20,6 +19,9 @@ craft/vendor/*
 # Local Config
 *.code-workspace
 *.vscode
+
+# Misc
+README.dev.txt
 
 # Keep Directories
 # http://goo.gl/3PMQna
