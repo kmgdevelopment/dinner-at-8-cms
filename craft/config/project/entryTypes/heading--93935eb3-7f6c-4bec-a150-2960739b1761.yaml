@@ -1,0 +1,36 @@
+color: null
+fieldLayouts:
+  452b29e9-b435-4eeb-a58c-d2d37defd510:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: aff1a2a4-284b-4c6b-826a-5202c95eb9e0
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f5fc182c-a1d4-4f78-b7e9-d3877c8f3a2a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dbd75817-9adf-4fea-ab00-799227e831fe
+        userCondition: null
+handle: heading
+hasTitleField: false
+icon: null
+name: Heading
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

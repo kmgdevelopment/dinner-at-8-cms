@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: description
+instructions: null
+name: 'Instructions - Instruction List - List - Description'
+searchable: true
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  ckeConfig: 68fd680f-8684-4ede-b14b-9d634ca2912b # Default
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: true
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

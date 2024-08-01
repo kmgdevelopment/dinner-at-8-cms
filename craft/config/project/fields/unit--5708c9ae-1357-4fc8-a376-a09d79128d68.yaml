@@ -1,0 +1,87 @@
+columnSuffix: null
+handle: unit
+instructions: null
+name: 'Ingredients - Ingredient List - List - Unit'
+searchable: true
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Select...
+        -
+          - value
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Grams
+        -
+          - value
+          - gram
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Ounces
+        -
+          - value
+          - ounce
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Pounds
+        -
+          - value
+          - pound
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Teaspoons
+        -
+          - value
+          - tsp
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Tablespoons
+        -
+          - value
+          - tbsp
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Cups
+        -
+          - value
+          - cup
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

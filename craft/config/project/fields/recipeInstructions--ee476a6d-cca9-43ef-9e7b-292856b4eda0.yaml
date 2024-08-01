@@ -1,16 +1,18 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeInstructions
 instructions: ''
 name: Instructions
 searchable: true
 settings:
-  contentTable: '{{%matrixcontent_recipeinstructions}}'
-  maxBlocks: ''
-  minBlocks: ''
+  entryTypes:
+    - 681447cd-8514-4205-a67e-443ec5c17e5a
+    - b9c38756-f0ca-491f-991e-aa024be92d9d
+  maxEntries: ''
+  minEntries: ''
   propagationKeyFormat: null
   propagationMethod: all
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

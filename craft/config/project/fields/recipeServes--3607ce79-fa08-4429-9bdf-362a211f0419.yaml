@@ -1,6 +1,5 @@
 columnSuffix: null
 contentColumnType: integer(10)
-fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeServes
 instructions: ''
 name: Serves
