@@ -152,6 +152,7 @@ fieldLayouts:
 handle: recipes
 hasTitleField: true
 name: Recipes
+section: 9fb4f6ff-06bf-48f1-925e-3fdd71f3a713 # Recipes
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

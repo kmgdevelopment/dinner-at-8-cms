@@ -1,4 +1,4 @@
-dateModified: 1722546109
+dateModified: 1722383985
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -28,36 +28,47 @@ fs:
     url: 'https://s3.us-west-2.amazonaws.com/content.dinnerat8.kristengrote.com'
 meta:
   __names__:
-    1f90e8f0-5924-44d5-a5df-5209b41e492e: 'Instructions - Instruction List - List Block' # Instructions - Instruction List - List Block
+    0bbf8946-303c-427e-8f8e-4f51742b9f6b: Text # Text
+    0cf58473-1cfd-473e-8e5e-312c9d73e1a2: Preparation # Preparation
     02cd0f87-4960-4c1c-a0ab-e31ebb79ec7b: Holiday # Holiday
     2cd4e019-1eaa-4e94-8b43-3392c0fdd322: Season # Season
     3fe9a343-7987-489e-8daa-7d7a23d2c85b: Recipes # Recipes
     5c82a1d8-e0a1-4299-9c96-e0c780383c4b: 'Public Schema' # Public Schema
     5ed3311c-702e-42e8-b0c3-c0e89357c5c9: 'Source Name' # Source Name
     7a07bf60-7f14-4996-b14f-9e5d7660db57: Makes # Makes
+    07e297c6-5c12-4c1f-9720-59d1b760d9f2: Description # Description
     9fb4f6ff-06bf-48f1-925e-3fdd71f3a713: Recipes # Recipes
     17d65186-6f71-4a63-98a0-616a23f4aadf: 'Meal Type' # Meal Type
     24be567a-7441-4eaf-b03c-9cd3f0046c58: 'Protein Type' # Protein Type
     30f80e02-aeae-448c-a172-c2a5b7671d2a: Notes # Notes
+    51a7b6e9-ddac-4ad7-98a0-50fa5e3d710a: Default # Default
     66b86147-ec5f-495f-9729-1f9614c6ff6e: 'Source URL' # Source URL
-    68fd680f-8684-4ede-b14b-9d634ca2912b: Default # Default
+    079b7b72-146c-4d30-88e3-156896f78cf3: Ingredient # Ingredient
+    458c394f-cc78-4e33-a441-53fe1259f9fe: Common # Common
+    528ecf5e-975b-4435-8ed7-c64dd1325ad5: Simple # Simple
     722f1a56-78fa-4d62-9345-3eed6ac377b9: Ingredients # Ingredients
     3607ce79-fa08-4429-9bdf-362a211f0419: Serves # Serves
-    4410e0d7-1efd-473f-b6ac-b99f5b68b26d: 'Instructions - Instruction List - List' # Instructions - Instruction List - List
+    4410e0d7-1efd-473f-b6ac-b99f5b68b26d: List # List
+    5708c9ae-1357-4fc8-a376-a09d79128d68: Unit # Unit
+    93935eb3-7f6c-4bec-a150-2960739b1761: Heading # Heading
     419135b9-5aea-48a3-8ba2-9c58221d424f: 'Meal Type' # Meal Type
-    5608699a-2abf-4fde-9835-23363d52bf75: Simple # Simple
+    681447cd-8514-4205-a67e-443ec5c17e5a: 'Instruction List' # Instruction List
     7955371b-f46b-47a4-99f0-8c79e0ed88d2: Season # Season
     19752013-301c-4d1e-835a-85c15af48ac0: 'Dinner at 8' # Dinner at 8
+    aff1a2a4-284b-4c6b-826a-5202c95eb9e0: Text # Text
     b4f23826-1085-4863-b1b2-9c286abe46f1: 'Dietary Restrictions' # Dietary Restrictions
+    b9c38756-f0ca-491f-991e-aa024be92d9d: Heading # Heading
     c5196221-f005-4c3a-bc04-70d1e28bc99a: 'Dietary Restrictions' # Dietary Restrictions
     ca0c05de-cddd-4a8f-9578-ab1c34092593: 'Protein Type' # Protein Type
     cb756273-ee04-4796-b4b9-cb450fc5a38a: Abstracts # Abstracts
     cd412959-aebd-403a-b455-0c9fbcedf68a: Holiday # Holiday
+    d5cb584b-a191-439e-a50e-d608943c5bba: Recipes # Recipes
     d99fda2a-6512-4e74-9162-14968199b4eb: Image # Image
     ec35b5a9-056f-4fd1-add4-f4faa4576b17: 'Dinner at 8' # Dinner at 8
     ee476a6d-cca9-43ef-9e7b-292856b4eda0: Instructions # Instructions
-    f7646939-482b-4287-8489-69001f4719ef: 'Ingredients - Ingredient List - List Block' # Ingredients - Ingredient List - List Block
-    ffaf3413-aa37-4373-87c3-a6429e660f3c: 'Ingredients - Ingredient List - List' # Ingredients - Ingredient List - List
+    fa3b48ba-5e5b-4476-b793-17177f4abb16: Quantity # Quantity
+    ffaf3413-aa37-4373-87c3-a6429e660f3c: List # List
+    fffa8870-5ac8-4278-abcf-b2341f6c359b: 'Ingredient List' # Ingredient List
 plugins:
   assetrev:
     edition: standard
@@ -78,12 +89,12 @@ plugins:
   super-table:
     edition: standard
     enabled: true
-    schemaVersion: 4.0.0
+    schemaVersion: 3.0.0
 system:
   edition: solo
   live: true
   name: 'Dinner at 8'
-  schemaVersion: 5.0.0.21
+  schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

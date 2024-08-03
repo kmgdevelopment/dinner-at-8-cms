@@ -1,5 +1,6 @@
 columnSuffix: null
 contentColumnType: text
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeNotes
 instructions: ''
 name: Notes
@@ -7,7 +8,7 @@ searchable: true
 settings:
   availableTransforms: '*'
   availableVolumes: '*'
-  ckeConfig: 5608699a-2abf-4fde-9835-23363d52bf75 # Simple
+  ckeConfig: 528ecf5e-975b-4435-8ed7-c64dd1325ad5 # Simple
   columnType: text
   defaultTransform: ''
   enableSourceEditingForNonAdmins: true

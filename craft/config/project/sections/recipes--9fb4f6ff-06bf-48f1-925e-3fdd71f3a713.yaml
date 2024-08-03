@@ -1,19 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-entryTypes:
-  - 3fe9a343-7987-489e-8daa-7d7a23d2c85b # Recipes
 handle: recipes
-maxAuthors: 1
 name: Recipes
-previewTargets:
-  -
-    __assoc__:
-      -
-        - label
-        - 'Primary entry page'
-      -
-        - urlFormat
-        - '{url}'
 propagationMethod: all
 siteSettings:
   19752013-301c-4d1e-835a-85c15af48ac0: # Dinner at 8
