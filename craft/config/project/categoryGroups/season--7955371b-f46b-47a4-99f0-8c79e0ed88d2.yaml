@@ -1,8 +1,9 @@
 defaultPlacement: end
 fieldLayouts:
-  d632847e-85c7-4500-8375-4b870411342e:
+  9528e0bc-0dc1-4927-9e21-ec9b3a0232aa:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,7 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -25,10 +28,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: e27c77de-9a1f-48c8-8c0a-f53a49a1c8fe
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: e59267ff-d02d-4dcc-b31a-2dcd6621bf40
+        userCondition: null
 handle: season
 name: Season
 siteSettings:

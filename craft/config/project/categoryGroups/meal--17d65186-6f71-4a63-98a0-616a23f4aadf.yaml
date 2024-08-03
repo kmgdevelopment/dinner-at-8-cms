@@ -1,8 +1,9 @@
 defaultPlacement: end
 fieldLayouts:
-  83d11aad-568b-46b4-b167-a08d13974a26:
+  0f13c7d8-25c9-4228-b976-0f2e6453c0e8:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,7 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -25,10 +28,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: e54fb17d-f866-4036-b5e0-d64e58f77038
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: d03090d6-da81-438f-89e9-47c671b17797
+        userCondition: null
 handle: meal
 name: 'Meal Type'
 siteSettings:

@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: text
 fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeMakes
-instructions: ''
+instructions: null
 name: Makes
 searchable: true
 settings:
@@ -51,8 +51,9 @@ settings:
         -
           - col2
           - ''
-  maxRows: '1'
-  minRows: '1'
+  maxRows: 1
+  minRows: 1
+  staticRows: false
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Table

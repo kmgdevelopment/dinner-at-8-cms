@@ -1,8 +1,9 @@
 defaultPlacement: end
 fieldLayouts:
-  7f74d2ca-6ba0-4743-bfd8-b9352b9b821a:
+  158cc92c-e528-4d6b-afa6-fe1ea932d2b4:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,7 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -25,10 +28,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 054ec730-bea9-44f3-85b3-af397500ac7a
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 91b39a01-180d-4fd4-8cd1-5cf835a00330
+        userCondition: null
 handle: protein
 name: 'Protein Type'
 siteSettings:

@@ -2,20 +2,19 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 458c394f-cc78-4e33-a441-53fe1259f9fe # Common
 handle: seasonCats
-instructions: ''
+instructions: null
 name: Season
 searchable: true
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: ''
-  limit: null
+  branchLimit: null
   localizeRelations: false
-  selectionLabel: ''
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
   showSiteMenu: true
   source: 'group:7955371b-f46b-47a4-99f0-8c79e0ed88d2' # Season
-  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

@@ -2,13 +2,13 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeIngredients
-instructions: ''
+instructions: null
 name: Ingredients
 searchable: true
 settings:
   contentTable: '{{%matrixcontent_recipeingredients}}'
-  maxBlocks: ''
-  minBlocks: ''
+  maxBlocks: null
+  minBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null

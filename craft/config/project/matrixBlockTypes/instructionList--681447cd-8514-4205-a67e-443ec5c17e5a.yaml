@@ -3,37 +3,43 @@ fieldLayouts:
   ce497cda-7f19-4f7d-b9bd-623706e8ddd4:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 4410e0d7-1efd-473f-b6ac-b99f5b68b26d # List
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 62c9fa5a-4ba7-42a4-b6bd-7137f465abcf
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: fc9a6568-e908-4a67-abab-762d86ff6767
+        userCondition: null
 fields:
   4410e0d7-1efd-473f-b6ac-b99f5b68b26d: # List
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: theList
-    instructions: ''
+    instructions: null
     name: List
     searchable: true
     settings:
+      blockTypeFields: 0
+      changedFieldIndicator: null
       contentTable: '{{%stc_thelist}}'
       fieldLayout: table
-      maxRows: ''
-      minRows: ''
-      placeholderKey: null
+      maxRows: null
+      minRows: null
       propagationKeyFormat: null
       propagationMethod: all
-      selectionLabel: ''
-      staticField: ''
+      selectionLabel: null
+      staticField: null
     translationKeyFormat: null
     translationMethod: site
     type: verbb\supertable\fields\SuperTableField

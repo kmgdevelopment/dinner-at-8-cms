@@ -1,4 +1,4 @@
-dateModified: 1722383985
+dateModified: 1722716297
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -12,17 +12,18 @@ fs:
     hasUrls: true
     name: Abstracts
     settings:
-      addSubfolderToRootUrl: '1'
-      autoFocalPoint: ''
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
       bucket: content.dinnerat8.kristengrote.com
       bucketSelectionMode: choose
       cfDistributionId: ''
       cfPrefix: ''
       expires: '30 days'
       keyId: $S3_ACCESS_KEY_ID
-      makeUploadsPublic: '1'
+      makeUploadsPublic: true
       region: us-west-2
       secret: $S3_SECRET_ACCESS_KEY
+      storageClass: ''
       subfolder: abstracts
     type: craft\awss3\Fs
     url: 'https://s3.us-west-2.amazonaws.com/content.dinnerat8.kristengrote.com'
@@ -41,11 +42,10 @@ meta:
     17d65186-6f71-4a63-98a0-616a23f4aadf: 'Meal Type' # Meal Type
     24be567a-7441-4eaf-b03c-9cd3f0046c58: 'Protein Type' # Protein Type
     30f80e02-aeae-448c-a172-c2a5b7671d2a: Notes # Notes
-    51a7b6e9-ddac-4ad7-98a0-50fa5e3d710a: Default # Default
     66b86147-ec5f-495f-9729-1f9614c6ff6e: 'Source URL' # Source URL
+    68fd680f-8684-4ede-b14b-9d634ca2912b: Default # Default
     079b7b72-146c-4d30-88e3-156896f78cf3: Ingredient # Ingredient
     458c394f-cc78-4e33-a441-53fe1259f9fe: Common # Common
-    528ecf5e-975b-4435-8ed7-c64dd1325ad5: Simple # Simple
     722f1a56-78fa-4d62-9345-3eed6ac377b9: Ingredients # Ingredients
     3607ce79-fa08-4429-9bdf-362a211f0419: Serves # Serves
     4410e0d7-1efd-473f-b6ac-b99f5b68b26d: List # List
@@ -53,6 +53,7 @@ meta:
     93935eb3-7f6c-4bec-a150-2960739b1761: Heading # Heading
     419135b9-5aea-48a3-8ba2-9c58221d424f: 'Meal Type' # Meal Type
     681447cd-8514-4205-a67e-443ec5c17e5a: 'Instruction List' # Instruction List
+    5608699a-2abf-4fde-9835-23363d52bf75: Simple # Simple
     7955371b-f46b-47a4-99f0-8c79e0ed88d2: Season # Season
     19752013-301c-4d1e-835a-85c15af48ac0: 'Dinner at 8' # Dinner at 8
     aff1a2a4-284b-4c6b-826a-5202c95eb9e0: Text # Text

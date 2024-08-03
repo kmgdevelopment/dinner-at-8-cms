@@ -2,29 +2,33 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeImg
-instructions: ''
+instructions: null
 name: Image
 searchable: true
 settings:
   allowSelfRelations: false
+  allowSubfolders: false
   allowUploads: true
   allowedKinds: null
+  branchLimit: null
   defaultUploadLocationSource: 'volume:cb756273-ee04-4796-b4b9-cb450fc5a38a' # Abstracts
-  defaultUploadLocationSubpath: ''
-  limit: '1'
+  defaultUploadLocationSubpath: null
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
   previewMode: full
-  restrictFiles: ''
-  selectionLabel: ''
+  restrictFiles: false
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:cb756273-ee04-4796-b4b9-cb450fc5a38a' # Abstracts
+  restrictedLocationSubpath: null
+  selectionLabel: null
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: 'volume:cb756273-ee04-4796-b4b9-cb450fc5a38a' # Abstracts
-  singleUploadLocationSubpath: ''
-  source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: true
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null

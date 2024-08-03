@@ -2,12 +2,11 @@ columnSuffix: null
 contentColumnType: string(255)
 fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeSourceUrl
-instructions: ''
+instructions: null
 name: 'Source URL'
 searchable: true
 settings:
-  maxLength: '255'
-  placeholder: ''
+  maxLength: 255
   types:
     - url
 translationKeyFormat: null

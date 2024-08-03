@@ -2,6 +2,7 @@ fieldLayouts:
   622f9134-ddda-4236-9e0f-7b533098c12b:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: Title
             max: null
@@ -24,135 +27,182 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e392e3cb-d2de-4bbb-9019-22fc76fcf2aa
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 3607ce79-fa08-4429-9bdf-362a211f0419 # Serves
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1a89652c-c298-41e3-82d1-50b7590b3188
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 7a07bf60-7f14-4996-b14f-9e5d7660db57 # Makes
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b4a317c7-6315-43f9-acce-23f16c0ec5f8
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 722f1a56-78fa-4d62-9345-3eed6ac377b9 # Ingredients
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 77f6feff-8603-44fe-a338-322a764861b3
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: ee476a6d-cca9-43ef-9e7b-292856b4eda0 # Instructions
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8ba288e2-786c-446f-86b3-0d58a7113bfb
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 30f80e02-aeae-448c-a172-c2a5b7671d2a # Notes
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9057748e-7923-491a-934a-24574dd556cf
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d99fda2a-6512-4e74-9162-14968199b4eb # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0a5a14b2-586f-47a8-b53e-53e15b69e632
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 5ed3311c-702e-42e8-b0c3-c0e89357c5c9 # Source Name
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: dc6cc8ad-c7cf-4b85-b156-da2f820dc114
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 66b86147-ec5f-495f-9729-1f9614c6ff6e # Source URL
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1b3a9c4c-1b3e-49e3-ab17-ec7e31bbf975
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 3b6be9f8-7f28-4256-a159-868217e6e3da
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 419135b9-5aea-48a3-8ba2-9c58221d424f # Meal Type
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 18aa7e69-3fb7-4c5e-865a-1be220a7de7c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: b4f23826-1085-4863-b1b2-9c286abe46f1 # Dietary Restrictions
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0ad30b72-0436-4a8e-8871-9c506c6a3795
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 24be567a-7441-4eaf-b03c-9cd3f0046c58 # Protein Type
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b11abeee-5b17-4afc-b6bb-ae889a2beb53
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 2cd4e019-1eaa-4e94-8b43-3392c0fdd322 # Season
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9da5fcf1-2b9f-4d55-8b11-4c75824c805c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: cd412959-aebd-403a-b455-0c9fbcedf68a # Holiday
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 12c81b4b-e7db-4441-9443-f1303438b7ab
+            userCondition: null
             warning: null
             width: 100
         name: Categories
-        sortOrder: 2
+        uid: 710a3680-2fb0-47bf-9f63-03170aee0286
+        userCondition: null
 handle: recipes
 hasTitleField: true
 name: Recipes
 section: 9fb4f6ff-06bf-48f1-925e-3fdd71f3a713 # Recipes
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: integer(10)
 fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeServes
-instructions: ''
+instructions: null
 name: Serves
 searchable: true
 settings:
@@ -13,7 +13,7 @@ settings:
   prefix: null
   previewCurrency: null
   previewFormat: decimal
-  size: '2'
+  size: 2
   suffix: People
 translationKeyFormat: null
 translationMethod: none

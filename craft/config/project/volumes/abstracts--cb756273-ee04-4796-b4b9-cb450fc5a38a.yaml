@@ -2,6 +2,7 @@ fieldLayouts:
   dd1c9e27-aefa-43f3-adea-1117def8deb0:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -24,15 +27,18 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 53da4afb-d54c-48c3-8674-34e379962930
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: cd29146b-6390-4a40-8e07-be8f136202e4
+        userCondition: null
 fs: abstracts
 handle: abstracts
-hasUrls: true
 name: Abstracts
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-url: 'https://s3.us-west-2.amazonaws.com/content.dinnerat8.kristengrote.com'
+transformFs: null
+transformSubpath: ''

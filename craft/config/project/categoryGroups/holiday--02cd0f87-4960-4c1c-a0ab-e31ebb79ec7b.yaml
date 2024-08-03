@@ -1,8 +1,9 @@
 defaultPlacement: end
 fieldLayouts:
-  deb50078-41d3-49fe-a872-fbec3ad8cb82:
+  9fa957a7-ed95-43a9-a4a0-2c2e8ef6356d:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,7 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -25,10 +28,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 1e4357cb-8f62-4444-855f-d6858c9aed8f
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: bc6e1415-342f-43bf-8ed9-e30fe72894ac
+        userCondition: null
 handle: holiday
 name: Holiday
 siteSettings:

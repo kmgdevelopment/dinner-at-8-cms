@@ -1,8 +1,9 @@
 defaultPlacement: end
 fieldLayouts:
-  17dd444b-9423-4e2a-ab78-c5cd801e4891:
+  5e8d6c87-c546-4403-8641-f81456e7ece9:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,7 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -25,10 +28,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 6239304c-af92-46b6-b3d3-befe2c3f803e
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 63360168-18b0-43d7-bcd1-baca2c354840
+        userCondition: null
 handle: diet
 name: 'Dietary Restrictions'
 siteSettings:
