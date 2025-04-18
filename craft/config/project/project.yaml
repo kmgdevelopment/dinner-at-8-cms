@@ -1,4 +1,4 @@
-dateModified: 1722716297
+dateModified: 1745008459
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -95,7 +95,7 @@ system:
   edition: solo
   live: true
   name: 'Dinner at 8'
-  schemaVersion: 4.5.3.0
+  schemaVersion: 4.15.0.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
