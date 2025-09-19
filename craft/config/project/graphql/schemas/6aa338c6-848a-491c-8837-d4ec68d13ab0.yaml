@@ -1,0 +1,12 @@
+isPublic: false
+name: 'Recipes & Filter Categories'
+scope:
+  - 'sites.19752013-301c-4d1e-835a-85c15af48ac0:read' # Dinner at 8
+  - 'sections.9fb4f6ff-06bf-48f1-925e-3fdd71f3a713:read' # Recipes
+  - 'entrytypes.3fe9a343-7987-489e-8daa-7d7a23d2c85b:read' # Recipes
+  - 'volumes.cb756273-ee04-4796-b4b9-cb450fc5a38a:read' # Abstracts
+  - 'categorygroups.c5196221-f005-4c3a-bc04-70d1e28bc99a:read' # Dietary Restrictions
+  - 'categorygroups.02cd0f87-4960-4c1c-a0ab-e31ebb79ec7b:read' # Holiday
+  - 'categorygroups.17d65186-6f71-4a63-98a0-616a23f4aadf:read' # Meal Type
+  - 'categorygroups.ca0c05de-cddd-4a8f-9578-ab1c34092593:read' # Protein Type
+  - 'categorygroups.7955371b-f46b-47a4-99f0-8c79e0ed88d2:read' # Season
