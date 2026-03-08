@@ -1,0 +1,196 @@
+columnSuffix: arrklpqc
+contentColumnType: text
+fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
+handle: recipeIngredients_new
+instructions: null
+name: Ingredients
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Quantity
+            -
+              - handle
+              - quantity
+            -
+              - width
+              - 10%
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Unit
+            -
+              - handle
+              - unit
+            -
+              - width
+              - 10%
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Select...
+                    -
+                      - value
+                      - ''
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Grams
+                    -
+                      - value
+                      - gram
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Ounces
+                    -
+                      - value
+                      - ounce
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Pounds
+                    -
+                      - value
+                      - pound
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Teaspoons
+                    -
+                      - value
+                      - tsp
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Tablespoons
+                    -
+                      - value
+                      - tbsp
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Cups
+                    -
+                      - value
+                      - cup
+                    -
+                      - default
+                      - false
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Ingredient
+            -
+              - handle
+              - ingredient
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - Preparation
+            -
+              - handle
+              - preparation
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - Heading
+            -
+              - handle
+              - heading
+            -
+              - width
+              - 5%
+            -
+              - type
+              - lightswitch
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - tbsp
+        -
+          - col3
+          - ''
+        -
+          - col4
+          - ''
+        -
+          - col5
+          - ''
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

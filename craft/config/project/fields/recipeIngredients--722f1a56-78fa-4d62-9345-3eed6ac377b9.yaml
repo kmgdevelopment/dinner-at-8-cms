@@ -3,7 +3,7 @@ contentColumnType: string
 fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeIngredients
 instructions: null
-name: Ingredients
+name: 'Ingredients (OLD)'
 searchable: true
 settings:
   contentTable: '{{%matrixcontent_recipeingredients}}'

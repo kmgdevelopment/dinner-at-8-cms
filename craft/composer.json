@@ -5,6 +5,7 @@
     "craftcms/ckeditor": "3.11.1",
     "craftcms/cms": "4.15.0",
     "craftcms/element-api": "4.2.0",
+    "craftcms/feed-me": "5.14.0",
     "verbb/super-table": "3.0.15",
     "vlucas/phpdotenv": "^3.4.0"
   },

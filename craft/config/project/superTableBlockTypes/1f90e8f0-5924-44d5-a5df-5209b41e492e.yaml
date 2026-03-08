@@ -1,4 +1,4 @@
-changedFieldIndicator: null
+changedFieldIndicator: 1802946419
 field: 4410e0d7-1efd-473f-b6ac-b99f5b68b26d # List
 fieldLayouts:
   ed08868d-6fc9-4839-a3dc-17b05f4e3cb5:
@@ -31,17 +31,17 @@ fields:
     name: Description
     searchable: true
     settings:
-      availableTransforms: '*'
+      availableTransforms: ''
       availableVolumes: '*'
       ckeConfig: 68fd680f-8684-4ede-b14b-9d634ca2912b # Default
       columnType: text
       defaultTransform: null
-      enableSourceEditingForNonAdmins: true
       purifierConfig: null
       purifyHtml: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       showWordCount: false
+      sourceEditingGroups: '*'
       wordLimit: null
     translationKeyFormat: null
     translationMethod: none

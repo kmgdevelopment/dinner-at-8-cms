@@ -1,4 +1,4 @@
-dateModified: 1757718822
+dateModified: 1773009425
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -45,9 +45,10 @@ meta:
     30f80e02-aeae-448c-a172-c2a5b7671d2a: Notes # Notes
     66b86147-ec5f-495f-9729-1f9614c6ff6e: 'Source URL' # Source URL
     68fd680f-8684-4ede-b14b-9d634ca2912b: Default # Default
+    74dd8bec-268c-4f64-840f-05b5d69c2860: Ingredients # Ingredients
     079b7b72-146c-4d30-88e3-156896f78cf3: Ingredient # Ingredient
     458c394f-cc78-4e33-a441-53fe1259f9fe: Common # Common
-    722f1a56-78fa-4d62-9345-3eed6ac377b9: Ingredients # Ingredients
+    722f1a56-78fa-4d62-9345-3eed6ac377b9: 'Ingredients (OLD)' # Ingredients (OLD)
     3607ce79-fa08-4429-9bdf-362a211f0419: Serves # Serves
     4410e0d7-1efd-473f-b6ac-b99f5b68b26d: List # List
     5708c9ae-1357-4fc8-a376-a09d79128d68: Unit # Unit
@@ -57,6 +58,7 @@ meta:
     5608699a-2abf-4fde-9835-23363d52bf75: Simple # Simple
     7955371b-f46b-47a4-99f0-8c79e0ed88d2: Season # Season
     19752013-301c-4d1e-835a-85c15af48ac0: 'Dinner at 8' # Dinner at 8
+    acc19b51-d2da-424b-b949-c978da1034c8: Instructions # Instructions
     aff1a2a4-284b-4c6b-826a-5202c95eb9e0: Text # Text
     b4f23826-1085-4863-b1b2-9c286abe46f1: 'Dietary Restrictions' # Dietary Restrictions
     b9c38756-f0ca-491f-991e-aa024be92d9d: Heading # Heading
@@ -67,7 +69,7 @@ meta:
     d5cb584b-a191-439e-a50e-d608943c5bba: Recipes # Recipes
     d99fda2a-6512-4e74-9162-14968199b4eb: Image # Image
     ec35b5a9-056f-4fd1-add4-f4faa4576b17: 'Dinner at 8' # Dinner at 8
-    ee476a6d-cca9-43ef-9e7b-292856b4eda0: Instructions # Instructions
+    ee476a6d-cca9-43ef-9e7b-292856b4eda0: 'Instructions (OLD)' # Instructions (OLD)
     fa3b48ba-5e5b-4476-b793-17177f4abb16: Quantity # Quantity
     ffaf3413-aa37-4373-87c3-a6429e660f3c: List # List
     fffa8870-5ac8-4278-abcf-b2341f6c359b: 'Ingredient List' # Ingredient List
@@ -88,6 +90,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.14.0
   super-table:
     edition: standard
     enabled: true

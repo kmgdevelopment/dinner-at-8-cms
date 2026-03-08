@@ -1,0 +1,49 @@
+{   
+    "entries": [
+        {% set entries = craft.entries.section(['recipes']).limit(100).all() %}
+        {% for entry in entries %}
+            {
+                "id": "{{ entry.id }}",
+                "recipeIngredients_new": [
+                    {% set ingredients = entry.recipeIngredients.all() %}
+                    {% for block in ingredients %}
+                        {% if block.type == 'heading' %}
+                            {
+                                "col1": "",
+                                "col2": "",
+                                "col3": {{ block.text|json_encode(constant('JSON_UNESCAPED_SLASHES'))|raw }},
+                                "col4": "",
+                                "col5": "1"
+                            }{% if not loop.last %},{% endif %}
+                        {% elseif block.type == 'ingredientList' %}
+                            {% for item in block.list %}
+                                {
+                                    "col1": "{{ item.quantity }}",
+                                    "col2": "{{ item.unit }}",
+                                    "col3": {{ item.ingredient|json_encode(constant('JSON_UNESCAPED_SLASHES'))|raw }},
+                                    "col4": {{ item.preparation|json_encode(constant('JSON_UNESCAPED_SLASHES'))|raw }},
+                                    "col5": ""
+                                }{% if loop.index != block.list|length %},{% endif %}
+                            {% endfor %}
+                            {% if not loop.last %},{% endif %}
+                        {% endif %}
+                    {% endfor %}
+                ],
+                "recipeInstructions_new": {% apply spaceless|json_encode(constant('JSON_UNESCAPED_SLASHES'))|raw %}
+                    {% set instructions = entry.recipeInstructions.all() %}
+                    {% for block in instructions %}
+                        {% if block.type == 'heading' %}
+                            <h6>{{ block.text }}</h6>
+                        {% elseif block.type == 'instructionList' %}
+                            <ol>
+                                {% for item in block.theList %}
+                                    <li>{{ item.description }}</li>
+                                {% endfor %}
+                            </ol>
+                        {% endif %}
+                    {% endfor %}
+                {% endapply %}
+            }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    ]
+}
