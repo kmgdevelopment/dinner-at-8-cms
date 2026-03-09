@@ -11,7 +11,7 @@
 return [
     // Global settings
     '*' => [
-        'headlessMode' => false,
+        'headlessMode' => true,
 
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
         'defaultWeekStartDay' => 1,
