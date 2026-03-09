@@ -1,4 +1,4 @@
-field: ee476a6d-cca9-43ef-9e7b-292856b4eda0 # Instructions (OLD)
+field: ee476a6d-cca9-43ef-9e7b-292856b4eda0 # Instructions
 fieldLayouts:
   3e1302a6-1855-4fcf-845d-9d224069cf18:
     tabs:
@@ -13,7 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: effae78d-ddf6-41dc-870f-0523b4efd7b8
+            uid: 95811527-dbe6-4fce-bb62-8374e53460ea
             userCondition: null
             warning: null
             width: 100

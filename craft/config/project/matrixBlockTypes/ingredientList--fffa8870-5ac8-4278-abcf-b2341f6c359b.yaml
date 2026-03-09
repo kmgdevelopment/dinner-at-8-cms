@@ -1,4 +1,4 @@
-field: 722f1a56-78fa-4d62-9345-3eed6ac377b9 # Ingredients (OLD)
+field: 722f1a56-78fa-4d62-9345-3eed6ac377b9 # Ingredients
 fieldLayouts:
   7b0e335f-275f-43ca-9fea-43cb5b96c50f:
     tabs:
@@ -13,7 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5ee200fa-051e-4b32-a862-15ae69c2b8a7
+            uid: 6e656382-7d3e-44fd-a1e6-cb1d9bdf82db
             userCondition: null
             warning: null
             width: 100
@@ -31,7 +31,7 @@ fields:
     searchable: true
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 132508481
+      changedFieldIndicator: null
       columns:
         __assoc__:
           -
@@ -71,7 +71,7 @@ fields:
       selectionLabel: null
       staticField: null
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: verbb\supertable\fields\SuperTableField
 handle: ingredientList
 name: 'Ingredient List'

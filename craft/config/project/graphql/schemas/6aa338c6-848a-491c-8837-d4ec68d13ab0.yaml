@@ -10,3 +10,5 @@ scope:
   - 'categorygroups.17d65186-6f71-4a63-98a0-616a23f4aadf:read' # Meal Type
   - 'categorygroups.ca0c05de-cddd-4a8f-9578-ab1c34092593:read' # Protein Type
   - 'categorygroups.7955371b-f46b-47a4-99f0-8c79e0ed88d2:read' # Season
+  - 'directive:parseRefs'
+  - 'directive:transform'

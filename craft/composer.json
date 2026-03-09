@@ -1,12 +1,12 @@
 {
   "require": {
     "clubstudioltd/craft-asset-rev": "7.0.0",
-    "craftcms/aws-s3": "2.2.2",
-    "craftcms/ckeditor": "3.11.1",
-    "craftcms/cms": "4.15.0",
+    "craftcms/aws-s3": "^2.3.0",
+    "craftcms/ckeditor": "^3.15.0",
+    "craftcms/cms": "^4.17.9",
     "craftcms/element-api": "4.2.0",
     "craftcms/feed-me": "5.14.0",
-    "verbb/super-table": "3.0.15",
+    "verbb/super-table": "^3.0.16",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {
@@ -21,7 +21,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.0.2"
+      "php": "8.2.30"
     },
     "allow-plugins": {
       "yiisoft/yii2-composer": true,
