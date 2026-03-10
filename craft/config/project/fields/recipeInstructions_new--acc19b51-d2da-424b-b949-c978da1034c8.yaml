@@ -1,17 +1,31 @@
 columnSuffix: dothwbbh
-contentColumnType: text
-fieldGroup: d5cb584b-a191-439e-a50e-d608943c5bba # Recipes
 handle: recipeInstructions_new
 instructions: null
 name: Instructions
 searchable: false
 settings:
+  advancedLinkFields: null
   availableTransforms: ''
   availableVolumes: '*'
   characterLimit: null
-  ckeConfig: 68fd680f-8684-4ede-b14b-9d634ca2912b # Default
-  columnType: text
+  css: null
   defaultTransform: null
+  defaultUploadLocationSubpath: null
+  defaultUploadLocationVolume: null
+  fullGraphqlData: true
+  headingLevels:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+  imageEntryTypeUid: null
+  imageFieldUid: null
+  imageMode: img
+  js: null
+  options: null
+  parseEmbeds: false
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
@@ -19,6 +33,14 @@ settings:
   showWordCount: false
   sourceEditingGroups:
     - __ADMINS__
+  toolbar:
+    - sourceEditing
+    - heading
+    - '|'
+    - bold
+    - italic
+    - link
+    - numberedList
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

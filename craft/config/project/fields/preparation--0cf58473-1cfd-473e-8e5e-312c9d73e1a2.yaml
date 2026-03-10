@@ -1,14 +1,12 @@
 columnSuffix: null
-contentColumnType: text
-handle: recipeSourceName
+handle: preparation
 instructions: null
-name: 'Source Name'
+name: 'Ingredients (OLD) - Ingredient List - List - Preparation'
 searchable: true
 settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: null
   initialRows: 4
   multiline: false
   placeholder: null

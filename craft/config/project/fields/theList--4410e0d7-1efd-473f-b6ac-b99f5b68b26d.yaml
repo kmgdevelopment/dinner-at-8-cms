@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: theList
+instructions: null
+name: 'Instructions (OLD) - Instruction List - List'
+searchable: true
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    - 1f90e8f0-5924-44d5-a5df-5209b41e492e # Instructions (OLD) - Instruction List - List Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField
