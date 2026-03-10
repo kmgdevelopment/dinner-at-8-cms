@@ -8,15 +8,16 @@ searchable: true
 settings:
   availableTransforms: '*'
   availableVolumes: '*'
+  characterLimit: null
   ckeConfig: 5608699a-2abf-4fde-9835-23363d52bf75 # Simple
   columnType: text
   defaultTransform: null
-  enableSourceEditingForNonAdmins: true
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   showWordCount: false
+  sourceEditingGroups: '*'
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

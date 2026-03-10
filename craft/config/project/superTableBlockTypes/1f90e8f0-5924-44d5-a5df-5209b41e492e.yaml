@@ -31,17 +31,18 @@ fields:
     name: Description
     searchable: true
     settings:
-      availableTransforms: '*'
+      availableTransforms: ''
       availableVolumes: '*'
+      characterLimit: null
       ckeConfig: 68fd680f-8684-4ede-b14b-9d634ca2912b # Default
       columnType: text
       defaultTransform: null
-      enableSourceEditingForNonAdmins: true
       purifierConfig: null
       purifyHtml: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       showWordCount: false
+      sourceEditingGroups: '*'
       wordLimit: null
     translationKeyFormat: null
     translationMethod: none

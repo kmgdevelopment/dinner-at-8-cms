@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  5e8d6c87-c546-4403-8641-f81456e7ece9:
+  e3f4ddf2-fe0f-4935-9891-77639c8136d4:
     tabs:
       -
         elementCondition: null
@@ -28,12 +28,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: 6239304c-af92-46b6-b3d3-befe2c3f803e
+            uid: a7e3392d-27bf-4425-bf35-6c5ac461338b
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 63360168-18b0-43d7-bcd1-baca2c354840
+        uid: d58978c1-7593-4894-b51e-3f7eacbbc1de
         userCondition: null
 handle: diet
 name: 'Dietary Restrictions'

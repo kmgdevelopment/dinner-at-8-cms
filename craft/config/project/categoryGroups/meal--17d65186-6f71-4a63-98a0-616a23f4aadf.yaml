@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  0f13c7d8-25c9-4228-b976-0f2e6453c0e8:
+  09d6d4c9-5644-4f84-bd94-20ea2db8dd7c:
     tabs:
       -
         elementCondition: null
@@ -28,12 +28,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: e54fb17d-f866-4036-b5e0-d64e58f77038
+            uid: d64bd3c5-884d-49b8-a7c2-efbaf3182a0f
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: d03090d6-da81-438f-89e9-47c671b17797
+        uid: 96c45770-7d10-43a2-80d9-27f5a111ae01
         userCondition: null
 handle: meal
 name: 'Meal Type'

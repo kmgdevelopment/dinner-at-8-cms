@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  9528e0bc-0dc1-4927-9e21-ec9b3a0232aa:
+  90806aa9-4f9f-4340-b812-935aedd47d65:
     tabs:
       -
         elementCondition: null
@@ -28,12 +28,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: e27c77de-9a1f-48c8-8c0a-f53a49a1c8fe
+            uid: 44b54df6-c28d-43e1-80a7-0d31dd889bfc
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e59267ff-d02d-4dcc-b31a-2dcd6621bf40
+        uid: 7721fd9e-76cd-48cc-8d26-9ef0299a6aa9
         userCondition: null
 handle: season
 name: Season

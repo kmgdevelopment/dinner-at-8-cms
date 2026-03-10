@@ -1,4 +1,4 @@
-dateModified: 1773098445
+dateModified: 1773101899
 email:
   fromEmail: $SYSTEM_EMAIL
   fromName: 'Dinner at 8'
@@ -48,7 +48,7 @@ meta:
     74dd8bec-268c-4f64-840f-05b5d69c2860: Ingredients # Ingredients
     079b7b72-146c-4d30-88e3-156896f78cf3: Ingredient # Ingredient
     458c394f-cc78-4e33-a441-53fe1259f9fe: Common # Common
-    722f1a56-78fa-4d62-9345-3eed6ac377b9: Ingredients # Ingredients
+    722f1a56-78fa-4d62-9345-3eed6ac377b9: 'Ingredients (OLD)' # Ingredients (OLD)
     3607ce79-fa08-4429-9bdf-362a211f0419: Serves # Serves
     4410e0d7-1efd-473f-b6ac-b99f5b68b26d: List # List
     5708c9ae-1357-4fc8-a376-a09d79128d68: Unit # Unit
@@ -69,7 +69,7 @@ meta:
     d5cb584b-a191-439e-a50e-d608943c5bba: Recipes # Recipes
     d99fda2a-6512-4e74-9162-14968199b4eb: Image # Image
     ec35b5a9-056f-4fd1-add4-f4faa4576b17: 'Dinner at 8' # Dinner at 8
-    ee476a6d-cca9-43ef-9e7b-292856b4eda0: Instructions # Instructions
+    ee476a6d-cca9-43ef-9e7b-292856b4eda0: 'Instructions (OLD)' # Instructions (OLD)
     fa3b48ba-5e5b-4476-b793-17177f4abb16: Quantity # Quantity
     ffaf3413-aa37-4373-87c3-a6429e660f3c: List # List
     fffa8870-5ac8-4278-abcf-b2341f6c359b: 'Ingredient List' # Ingredient List

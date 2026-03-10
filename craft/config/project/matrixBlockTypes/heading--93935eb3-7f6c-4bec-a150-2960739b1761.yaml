@@ -1,4 +1,4 @@
-field: 722f1a56-78fa-4d62-9345-3eed6ac377b9 # Ingredients
+field: 722f1a56-78fa-4d62-9345-3eed6ac377b9 # Ingredients (OLD)
 fieldLayouts:
   452b29e9-b435-4eeb-a58c-d2d37defd510:
     tabs:
@@ -13,7 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bac85432-a9b7-414b-8233-7ee577302216
+            uid: ecefd380-1abc-4271-857e-0d67f0af6eea
             userCondition: null
             warning: null
             width: 100

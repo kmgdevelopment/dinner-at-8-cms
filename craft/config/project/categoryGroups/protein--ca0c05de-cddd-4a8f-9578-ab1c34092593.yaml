@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  158cc92c-e528-4d6b-afa6-fe1ea932d2b4:
+  fccacf3f-7a9b-4f7b-9e2b-5a998a8871d4:
     tabs:
       -
         elementCondition: null
@@ -28,12 +28,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: 054ec730-bea9-44f3-85b3-af397500ac7a
+            uid: b2d6e3a6-2357-4a5b-9e26-93e0e5f93b6f
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 91b39a01-180d-4fd4-8cd1-5cf835a00330
+        uid: 1d15fca2-c3b2-4a91-b2f7-e375a47569df
         userCondition: null
 handle: protein
 name: 'Protein Type'

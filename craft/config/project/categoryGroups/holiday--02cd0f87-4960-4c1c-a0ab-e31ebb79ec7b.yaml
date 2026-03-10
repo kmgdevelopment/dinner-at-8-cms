@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  9fa957a7-ed95-43a9-a4a0-2c2e8ef6356d:
+  d60b2d30-9801-4192-87a0-f98c00e0fcfc:
     tabs:
       -
         elementCondition: null
@@ -28,12 +28,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: 1e4357cb-8f62-4444-855f-d6858c9aed8f
+            uid: 87701341-45ae-4002-bb04-07f9ab4f7af3
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: bc6e1415-342f-43bf-8ed9-e30fe72894ac
+        uid: 1d4123ed-bc82-45e2-8948-29a4c71ca0e6
         userCondition: null
 handle: holiday
 name: Holiday
