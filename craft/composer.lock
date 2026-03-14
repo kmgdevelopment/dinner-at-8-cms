@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca0fe4aebd446a23ad4e007ab4080d02",
+    "content-hash": "f6b7c97ec7f7fb56968e4f10bddf2fe9",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -48,16 +48,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.372.2",
+            "version": "3.373.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d1885c8c5db03c2a23121e6df58ef5693df41b95"
+                "reference": "483fba51c28b3a0c0647bf5100e0edca82090b18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d1885c8c5db03c2a23121e6df58ef5693df41b95",
-                "reference": "d1885c8c5db03c2a23121e6df58ef5693df41b95",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/483fba51c28b3a0c0647bf5100e0edca82090b18",
+                "reference": "483fba51c28b3a0c0647bf5100e0edca82090b18",
                 "shasum": ""
             },
             "require": {
@@ -78,12 +78,12 @@
                 "aws/aws-php-sns-message-validator": "~1.0",
                 "behat/behat": "~3.0",
                 "composer/composer": "^2.7.8",
-                "dms/phpunit-arraysubset-asserts": "^0.4.0",
+                "dms/phpunit-arraysubset-asserts": "^v0.5.0",
                 "doctrine/cache": "~1.4",
                 "ext-dom": "*",
                 "ext-openssl": "*",
                 "ext-sockets": "*",
-                "phpunit/phpunit": "^9.6",
+                "phpunit/phpunit": "^10.0",
                 "psr/cache": "^2.0 || ^3.0",
                 "psr/simple-cache": "^2.0 || ^3.0",
                 "sebastian/comparator": "^1.2.3 || ^4.0 || ^5.0",
@@ -139,9 +139,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.372.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.373.2"
             },
-            "time": "2026-03-09T18:21:50+00:00"
+            "time": "2026-03-13T18:08:30+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2100,16 +2100,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "21dc724a0583619cd1652f673303492272778051"
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
-                "reference": "21dc724a0583619cd1652f673303492272778051",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/7d0ed42f28e42d61352a7a79de682e5e67fec884",
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884",
                 "shasum": ""
             },
             "require": {
@@ -2125,6 +2125,7 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "0.9.0",
+                "jshttp/mime-db": "1.54.0.1",
                 "phpunit/phpunit": "^8.5.44 || ^9.6.25"
             },
             "suggest": {
@@ -2196,7 +2197,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.8.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.9.0"
             },
             "funding": [
                 {
@@ -2212,7 +2213,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-23T21:21:41+00:00"
+            "time": "2026-03-10T16:41:02+00:00"
         },
         {
             "name": "illuminate/collections",
@@ -8161,6 +8162,61 @@
                 "php"
             ],
             "time": "2024-11-21T01:49:47+00:00"
+        },
+        {
+            "name": "weareferal/remote-backup",
+            "version": "5.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/timmyomahony/craft-remote-backup/zipball/e4d711a6b3d66f1b279d9388bf57d8173c3ed6dc",
+                "reference": "e4d711a6b3d66f1b279d9388bf57d8173c3ed6dc",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0.0",
+                "php": "^8.0.2"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Required for AWS S3, Backblaze or Digital Ocean Spaces usage",
+                "google/apiclient": "Required for Google Drive usage",
+                "kunalvarma05/dropbox-php-sdk": "Required for Dropbox usage"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Remote Backup",
+                "handle": "remote-backup",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/timmyomahony/craft-remote-backup/master/CHANGELOG.md",
+                "class": "weareferal\\remotebackup\\RemoteBackup"
+            },
+            "autoload": {
+                "psr-4": {
+                    "weareferal\\remotebackup\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Timmy O'Mahony",
+                    "homepage": "https://timmyomahony.com"
+                }
+            ],
+            "description": "Backup your database and assets to a remote location",
+            "keywords": [
+                "backup",
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://craft-plugins.timmyomahony.com/remote-backup",
+                "issues": "https://github.com/timmyomahony/craft-remote-backup/issues"
+            },
+            "time": "2025-11-21T10:19:00+00:00"
         },
         {
             "name": "web-auth/cose-lib",
